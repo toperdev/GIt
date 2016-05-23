@@ -1,0 +1,1361 @@
+INFO  2016-05-19 14:44:27,498 (Saros.java:220) Starting Saros 14.10.31 running:
+  Java Version: 1.8.0_60
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.11.1.v20150903-1804
+  Operating System: Windows 7 (6.1)
+  Hardware Architecture: amd64
+INFO  2016-05-19 14:44:27,538 (SarosContext.java:153) creating Saros runtime context...
+DEBUG 2016-05-19 14:44:27,591 (XMPPAccountStore.java:117) loading accounts from file: C:\Users\Administrator.AERO-440-204V\.saros\config.dat
+DEBUG 2016-05-19 14:44:27,860 (XMPPAccountStore.java:176) loaded 1 account(s)
+INFO  2016-05-19 14:44:28,240 (SarosContext.java:199) successfully created Saros runtime context
+DEBUG 2016-05-19 14:44:28,264 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+INFO  2016-05-19 14:44:28,294 (PreferenceInitializer.java:50) initializing preference default values
+DEBUG 2016-05-19 14:44:28,358 (SarosAnnotation.java:117) resetting annotation colors
+DEBUG 2016-05-19 14:44:28,436 (Saros.java:430) skipping conversion of old XMPP accounts, because there are already new ones
+DEBUG 2016-05-19 14:44:32,023 (SharedDocumentProvider.java:77) SharedDocumentProvider created by Eclipse
+DEBUG 2016-05-19 14:44:38,413 (WhiteboardManager.java:194) WhiteboardManager instantiated
+DEBUG 2016-05-19 14:44:38,709 (DocumentRecord.java:93) Added Node: attr(146368347870414582) name=svg
+DEBUG 2016-05-19 14:44:38,741 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2016-05-19 14:44:39,313 (XMPPAccountStore.java:232) saved 1 account(s)
+DEBUG 2016-05-19 14:44:40,711 (XMPPConnectionService.java:459) using autodetected addresses: [192.168.56.1, 10.16.136.202]
+DEBUG 2016-05-19 14:44:40,724 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+DEBUG 2016-05-19 14:44:42,361 (XMPPConnectionService.java:398) toper@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2016-05-19 14:44:42,361 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+DEBUG 2016-05-19 14:44:42,375 (SkypeManager.java:289) Refreshing Skype username cache...
+DEBUG 2016-05-19 14:44:42,865 (DiscoveryManager.java:382) Inserted DiscoveryInfo into Cache for: jackcbreton@saros-con.imp.fu-berlin.de/Saros
+WARN  2016-05-19 14:44:51,002 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.56.1:0
+WARN  2016-05-19 14:44:51,002 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /10.16.136.202:0
+INFO  2016-05-19 14:45:12,708 (StatisticManager.java:184) Current feedback settings:
+  Feedback disabled: true
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2016-05-19 14:45:12,721 (ErrorLogManager.java:257) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2016-05-19 14:45:12,956 (StatisticManager.java:163) Session count: 8
+INFO  2016-05-19 14:45:12,957 (ParticipantCollector.java:134) Session started: Current number of participants: 1
+DEBUG 2016-05-19 14:45:12,977 (XStreamExtensionProvider.java:149) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2016-05-19 14:45:12,978 (XStreamExtensionProvider.java:194) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2016-05-19 14:45:12,984 (ActivityHandler.java:89) activity dispatcher started
+DEBUG 2016-05-19 14:45:13,028 (ConsistencyAction.java:173) Inconsistency indicator goes: off
+DEBUG 2016-05-19 14:45:13,028 (WhiteboardManager.java:104) Skip Whiteboard preparation because session host has no Whiteboard
+DEBUG 2016-05-19 14:45:13,029 (SarosProjectMapper.java:179) added project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@ef531621 - P/Phantom with ID 1230246063 [completely shared:true]
+DEBUG 2016-05-19 14:45:13,098 (EditorAPI.java:259) editor part needs to be restored: Main.java
+DEBUG 2016-05-19 14:45:13,180 (MultiUserChatService.java:100) Joining MUC...
+DEBUG 2016-05-19 14:45:13,187 (MultiUserChat.java:264) Trying to create room on server conference.saros-con.imp.fu-berlin.de
+DEBUG 2016-05-19 14:45:13,232 (EditorAPI.java:259) editor part needs to be restored: Background.java
+DEBUG 2016-05-19 14:45:13,310 (MultiUserChat.java:310) Configuring room
+DEBUG 2016-05-19 14:45:13,340 (EditorAPI.java:259) editor part needs to be restored: Render.java
+DEBUG 2016-05-19 14:45:13,461 (EditorAPI.java:259) editor part needs to be restored: Collision.java
+DEBUG 2016-05-19 14:45:13,550 (MultiUserChat.java:297) MUC created and joined. Server: conference.saros-con.imp.fu-berlin.de Room: SAROS_480872429 Password 443692380
+DEBUG 2016-05-19 14:45:13,559 (EditorAPI.java:259) editor part needs to be restored: Road.java
+DEBUG 2016-05-19 14:45:13,654 (EditorAPI.java:259) editor part needs to be restored: SimplexNoise.java
+DEBUG 2016-05-19 14:45:13,696 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-05-19 14:45:13,698 (MultiUserChatStateManager.java:101) Incoming Message from saros_480872429@conference.saros-con.imp.fu-berlin.de/toper@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2016-05-19 14:45:13,699 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2016-05-19 14:45:13,806 (EditorAPI.java:259) editor part needs to be restored: GenerateRoad.java
+WARN  2016-05-19 14:45:13,909 (EditorAPI.java:381) Viewport Range Problem in org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer@7a4efee2: Bottom == 3 < Top == 8
+DEBUG 2016-05-19 14:45:13,913 (EditorManager.java:392) SimplexNoise.java
+DEBUG 2016-05-19 14:45:13,914 (EditorManager.java:392) Road.java
+DEBUG 2016-05-19 14:45:13,914 (EditorManager.java:392) Collision.java
+DEBUG 2016-05-19 14:45:13,915 (EditorManager.java:392) Background.java
+DEBUG 2016-05-19 14:45:13,916 (EditorManager.java:392) Render.java
+DEBUG 2016-05-19 14:45:13,916 (EditorManager.java:392) Main.java
+DEBUG 2016-05-19 14:45:13,917 (EditorManager.java:392) Player.java
+DEBUG 2016-05-19 14:45:13,920 (EditorManager.java:392) GenerateRoad.java
+INFO  2016-05-19 14:45:13,922 (SarosSessionManager.java:262) session started
+DEBUG 2016-05-19 14:45:14,071 (OutgoingSessionNegotiation.java:122) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : starting invitation
+DEBUG 2016-05-19 14:45:14,073 (OutgoingSessionNegotiation.java:223) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : checking Saros support
+DEBUG 2016-05-19 14:45:14,075 (OutgoingSessionNegotiation.java:235) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] :  remote contact offers Saros support
+DEBUG 2016-05-19 14:45:14,075 (OutgoingSessionNegotiation.java:253) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : checking version compatibility
+DEBUG 2016-05-19 14:45:14,342 (OutgoingSessionNegotiation.java:284) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : Saros versions are compatible
+DEBUG 2016-05-19 14:45:14,343 (OutgoingSessionNegotiation.java:298) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : sending invitation
+DEBUG 2016-05-19 14:45:14,344 (OutgoingSessionNegotiation.java:314) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : waiting for invitation acknowledgement
+DEBUG 2016-05-19 14:45:14,578 (OutgoingSessionNegotiation.java:325) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : invitation acknowledged
+DEBUG 2016-05-19 14:45:14,578 (OutgoingSessionNegotiation.java:334) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : waiting for peer to accept the invitation
+DEBUG 2016-05-19 14:45:14,614 (EditorListener.java:236) Viewport changed: 0+1
+DEBUG 2016-05-19 14:46:03,510 (OutgoingSessionNegotiation.java:345) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : invitation accepted
+DEBUG 2016-05-19 14:46:03,511 (OutgoingSessionNegotiation.java:355) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : waiting for client's session parameters
+DEBUG 2016-05-19 14:46:03,616 (OutgoingSessionNegotiation.java:375) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : received client's session parameters
+DEBUG 2016-05-19 14:46:03,854 (WhiteboardManager.java:163) Detected  Whiteboard at jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:46:03,855 (OutgoingSessionNegotiation.java:427) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : sending updated session negotiation data
+DEBUG 2016-05-19 14:46:03,855 (OutgoingSessionNegotiation.java:434) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : sent updated session negotiation data
+DEBUG 2016-05-19 14:46:03,855 (OutgoingSessionNegotiation.java:444) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : waiting for remote side to start its Saros session
+DEBUG 2016-05-19 14:46:04,660 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@2735f6af]
+DEBUG 2016-05-19 14:46:04,661 (Socks5Transport.java:368) [SOCKS5Transport] receiving request from jackcbreton@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.56.1, 10.16.136.202]]
+DEBUG 2016-05-19 14:46:04,662 (Socks5Transport.java:624) [SOCKS5Transport] Start to establish new response connection
+WARN  2016-05-19 14:46:24,668 (Socks5Transport.java:411) [SOCKS5Transport] Couldn't accept request but still trying to establish a response connection: Could not establish socket with any provided host
+ERROR 2016-05-19 14:46:24,670 (Socks5Transport.java:440) An error occurred while establishing a response connection 
+item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishResponseSession(Socks5Transport.java:631)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:108)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 2016-05-19 14:46:24,690 (ByteStreamTransport.java:105) could not establish bytestream connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros
+java.io.IOException: [SOCKS5Transport] Neither connection could be established. 
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptNewRequest(Socks5Transport.java:446)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:474)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 2016-05-19 14:46:55,239 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@1172fbd9]
+DEBUG 2016-05-19 14:46:55,245 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=saros-main-session] jackcbreton@saros-con.imp.fu-berlin.de/Saros, inc=true, pool id=saros-main-session:in:jackcbreton@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-05-19 14:46:55,247 (BinaryChannelConnection.java:103) [mode=IBB, id=saros-main-session] jackcbreton@saros-con.imp.fu-berlin.de/Saros ReceiverThread started.
+DEBUG 2016-05-19 14:46:55,976 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-05-19 14:46:55,977 (MultiUserChatStateManager.java:101) Incoming Message from saros_480872429@conference.saros-con.imp.fu-berlin.de/jackcbreton@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2016-05-19 14:46:55,978 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2016-05-19 14:46:56,098 (OutgoingSessionNegotiation.java:455) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : remote side started its Saros session
+DEBUG 2016-05-19 14:46:56,098 (OutgoingSessionNegotiation.java:472) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : synchronizing user list
+DEBUG 2016-05-19 14:46:56,099 (UserInformationHandler.java:152) synchronizing user list (A)[jackcbreton@saros-con.imp.fu-berlin.de/Saros, toper@saros-con.imp.fu-berlin.de/Saros], (R) [] with user(s) [jackcbreton@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-05-19 14:46:57,439 (UserInformationHandler.java:204) received user list confirmation from: jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:46:57,439 (UserInformationHandler.java:211) synchronized user list with user(s) [jackcbreton@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-05-19 14:46:57,440 (ChangeColorManager.java:290) reassigning color IDs for the current session users
+DEBUG 2016-05-19 14:46:57,442 (ChangeColorManager.java:324) color conflict resolve result = NO CONFLICT
+DEBUG 2016-05-19 14:46:57,442 (ChangeColorManager.java:383) new color assignment: {toper@saros-con.imp.fu-berlin.de/Saros=2, jackcbreton@saros-con.imp.fu-berlin.de/Saros=1}
+DEBUG 2016-05-19 14:46:57,444 (ChangeColorManager.java:634) updating color id set: [jackcbreton@saros-con.imp.fu-berlin.de, toper@saros-con.imp.fu-berlin.de]
+INFO  2016-05-19 14:46:57,450 (ParticipantCollector.java:67) jackcbreton@saros-con.imp.fu-berlin.de/Saros joined - session now contains 2 users
+INFO  2016-05-19 14:46:57,452 (SarosSession.java:456) user jackcbreton@saros-con.imp.fu-berlin.de/Saros joined session
+DEBUG 2016-05-19 14:46:57,452 (OutgoingSessionNegotiation.java:482) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : added jackcbreton@saros-con.imp.fu-berlin.de/Saros to the current session, colorID: 1
+DEBUG 2016-05-19 14:46:57,456 (ActivitySequencer.java:496) send (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:46:58,199 (OutgoingSessionNegotiation.java:501) OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : session negotiation finished
+DEBUG 2016-05-19 14:46:58,201 (WhiteboardManager.java:89) Preparing Whiteboard for sending an invitation
+DEBUG 2016-05-19 14:46:58,209 (ColorUtils.java:21) set foregroundcolor RGB {186, 220, 81}
+DEBUG 2016-05-19 14:46:58,216 (SXEController.java:120) SXE (2398): initialize session at inviter side
+DEBUG 2016-05-19 14:46:58,222 (SXEOutgoingSynchronizationProcess.java:51) SXE(2398)  send state-offer to jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:46:58,224 (SarosSXETransmitter.java:151) SXE send state-offer to jackcbreton@saros-con.imp.fu-berlin.de/Saros waiting for [accept-state, refuse-state]
+INFO  2016-05-19 14:46:58,287 (DataTransferManager.java:409) establishing connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros from toper@saros-con.imp.fu-berlin.de/Saros using transport XMPP-Socks5-Transport
+DEBUG 2016-05-19 14:46:58,288 (ByteStreamTransport.java:45) establishing bytestream connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:46:58,288 (Socks5Transport.java:493) [SOCKS5Transport] establishing connection to jackcbreton@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.56.1, 10.16.136.202]]...
+WARN  2016-05-19 14:46:59,276 (Socks5Transport.java:544) [SOCKS5Transport] could not establish a connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host
+DEBUG 2016-05-19 14:46:59,279 (Socks5Transport.java:567) [SOCKS5Transport] waiting for jackcbreton@saros-con.imp.fu-berlin.de/Saros to establish a connection...
+DEBUG 2016-05-19 14:46:59,943 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@2735f6af]
+DEBUG 2016-05-19 14:46:59,943 (Socks5Transport.java:311) [SOCKS5Transport] receiving response connection from jackcbreton@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.56.1, 10.16.136.202]]
+ERROR 2016-05-19 14:47:19,946 (ByteStreamTransport.java:105) could not establish bytestream connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN  2016-05-19 14:47:29,282 (DataTransferManager.java:415) failed to connect to jackcbreton@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:242)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:88)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:64)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendWithoutDispatch(SarosSXETransmitter.java:137)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendAndAwait(SarosSXETransmitter.java:162)
+	at de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEOutgoingSynchronizationProcess.start(SXEOutgoingSynchronizationProcess.java:58)
+	at de.fu_berlin.inf.dpp.whiteboard.net.WhiteboardManager$1.postOutgoingInvitationCompleted(WhiteboardManager.java:96)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.postOutgoingInvitationCompleted(SarosSessionManager.java:667)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:202)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingInvitationJob.run(NegotiationHandler.java:86)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 13 more
+INFO  2016-05-19 14:47:29,284 (DataTransferManager.java:409) establishing connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros from toper@saros-con.imp.fu-berlin.de/Saros using transport XMPP-IBB-Transport
+DEBUG 2016-05-19 14:47:29,284 (ByteStreamTransport.java:45) establishing bytestream connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:47:29,520 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=default] jackcbreton@saros-con.imp.fu-berlin.de/Saros, inc=false, pool id=default:out:jackcbreton@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-05-19 14:47:29,524 (BinaryChannelConnection.java:103) [mode=IBB, id=default] jackcbreton@saros-con.imp.fu-berlin.de/Saros ReceiverThread started.
+DEBUG 2016-05-19 14:47:31,329 (SXEOutgoingSynchronizationProcess.java:70) SXE(2398) jackcbreton@saros-con.imp.fu-berlin.de/Saros accepted state-offer
+DEBUG 2016-05-19 14:47:31,333 (SXEOutgoingSynchronizationProcess.java:89) SXE(2398) Sending state to jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:47:31,339 (SXEOutgoingSynchronizationProcess.java:91) Send message: de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEMessage@549fd7bd: from: null, to: jackcbreton@saros-con.imp.fu-berlin.de/Saros, msgId: 1messageTyp: statemessage: [new ns=http://www.w3.org/2000/svg visible=true version=0 name=svg rid=146368347870414582 type=element, ]
+DEBUG 2016-05-19 14:47:31,343 (CancelableProcess.java:353) process OSN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] exit status: OK
+INFO  2016-05-19 14:47:31,351 (ProjectNegotiationObservable.java:51) This is ProjectNegotiation number 1 in this session. There are 0 process(es) in this session
+DEBUG 2016-05-19 14:47:32,559 (OutgoingProjectNegotiation.java:181) OPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : sending file list
+DEBUG 2016-05-19 14:47:34,320 (OutgoingProjectNegotiation.java:214) OPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : waiting for remote file list
+DEBUG 2016-05-19 14:48:40,615 (OutgoingProjectNegotiation.java:232) OPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : remote file list has been received
+DEBUG 2016-05-19 14:48:40,617 (OutgoingProjectNegotiation.java:270) OPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : stopping users [jackcbreton@saros-con.imp.fu-berlin.de/Saros, toper@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-05-19 14:48:40,634 (EditorManager.java:1697) locking all editors
+DEBUG 2016-05-19 14:48:40,638 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:40,644 (StopManager.java:239) added StartHandle (toper@saros-con.imp.fu-berlin.de/Saros, 144840631-1928222821255506091, startable) to resulting handles.
+DEBUG 2016-05-19 14:48:41,722 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:41,725 (StopManager.java:390) Acknowledgment arrived jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:41,726 (StopManager.java:239) added StartHandle (jackcbreton@saros-con.imp.fu-berlin.de/Saros, 144840633-8312053646191921577, startable) to resulting handles.
+INFO  2016-05-19 14:48:43,068 (SarosSession.java:462) user jackcbreton@saros-con.imp.fu-berlin.de/Saros started queuing projects and can receive IResourceActivities
+DEBUG 2016-05-19 14:48:43,074 (OutgoingProjectNegotiation.java:353) OPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : creating archive
+DEBUG 2016-05-19 14:48:43,087 (CreateArchiveTask.java:140) created archive C:\Users\ADMINI~1.AER\AppData\Local\Temp\saros_47410720064352993479039271756994640978.zip I/O: [1.7 kB in < 1 s at 188.0 kB/s]
+DEBUG 2016-05-19 14:48:43,087 (OutgoingProjectNegotiation.java:288) OPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : restarting user toper@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:43,088 (StartHandle.java:58) Called start on toper@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:43,088 (StopManager.java:430) StartHandle (toper@saros-con.imp.fu-berlin.de/Saros, 144840631-1928222821255506091, not startable) couldn't be removed because it doesn't exist any more.
+DEBUG 2016-05-19 14:48:43,090 (EditorManager.java:1697) unlocking all editors
+DEBUG 2016-05-19 14:48:43,094 (OutgoingProjectNegotiation.java:288) OPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : restarting user jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:43,094 (StartHandle.java:58) Called start on jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:43,094 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:43,111 (OutgoingProjectNegotiation.java:390) OPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : sending archive
+DEBUG 2016-05-19 14:48:44,003 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:45,317 (OutgoingProjectNegotiation.java:407) OPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : archive send
+INFO  2016-05-19 14:48:45,333 (SarosSession.java:482) user jackcbreton@saros-con.imp.fu-berlin.de/Saros now has Projects and can process IResourceActivities
+DEBUG 2016-05-19 14:48:45,336 (ActivitySequencer.java:496) send (011) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:46,019 (CancelableProcess.java:353) process OPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] exit status: OK
+DEBUG 2016-05-19 14:48:46,379 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:47,325 (ActivitySequencer.java:546) rcvd (010) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:49,419 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:49,425 (EditorListener.java:236) Viewport changed: 0+41
+DEBUG 2016-05-19 14:48:49,450 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:53,074 (ActivitySequencer.java:496) send (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:53,568 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:48:59,888 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:00,950 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:01,724 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:02,874 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:03,321 (ActivitySequencer.java:496) send (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:04,071 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:04,627 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:04,980 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:05,613 (DirtyStateListener.java:75) Dirty state reset for: L/Phantom/src/net/toper/main/Player.java
+DEBUG 2016-05-19 14:49:05,615 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:13,098 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:13,945 (ActivitySequencer.java:496) send (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:21,290 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:23,097 (ActivitySequencer.java:496) send (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:23,535 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:33,097 (ActivitySequencer.java:496) send (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:34,636 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:35,277 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:35,755 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:36,249 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:37,444 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:37,894 (ActivitySequencer.java:496) send (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:38,753 (DirtyStateListener.java:75) Dirty state reset for: L/Phantom/src/net/toper/main/Player.java
+DEBUG 2016-05-19 14:49:38,802 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:43,100 (ActivitySequencer.java:496) send (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:48,695 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:49,146 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:50,456 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:51,323 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:51,915 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:52,680 (ActivitySequencer.java:496) send (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:53,335 (ActivitySequencer.java:496) send (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:54,806 (DirtyStateListener.java:75) Dirty state reset for: L/Phantom/src/net/toper/main/Player.java
+DEBUG 2016-05-19 14:49:54,807 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:55,263 (ActivitySequencer.java:496) send (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:55,889 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:56,510 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:56,947 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:49:58,868 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:00,039 (DirtyStateListener.java:75) Dirty state reset for: L/Phantom/src/net/toper/main/Player.java
+DEBUG 2016-05-19 14:50:00,043 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:03,104 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:03,535 (ActivitySequencer.java:496) send (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:09,970 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:10,409 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:10,961 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:11,441 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:11,760 (DirtyStateListener.java:75) Dirty state reset for: L/Phantom/src/net/toper/main/Player.java
+DEBUG 2016-05-19 14:50:11,878 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:13,117 (ActivitySequencer.java:496) send (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:23,116 (ActivitySequencer.java:496) send (005) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:33,345 (ActivitySequencer.java:496) send (020) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:34,558 (DirtyStateListener.java:75) Dirty state reset for: L/Phantom/src/net/toper/main/Player.java
+DEBUG 2016-05-19 14:50:34,565 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:43,123 (ActivitySequencer.java:496) send (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:47,516 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:47,957 (ActivitySequencer.java:496) send (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:48,788 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:49,744 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:50,200 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:50,673 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:51,069 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:51,278 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:51,692 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:51,796 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:52,169 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:52,314 (DirtyStateListener.java:75) Dirty state reset for: L/Phantom/src/net/toper/main/Player.java
+DEBUG 2016-05-19 14:50:52,319 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:52,666 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:50:53,150 (ActivitySequencer.java:496) send (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:51:03,144 (ActivitySequencer.java:496) send (005) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:51:03,603 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:51:13,147 (ActivitySequencer.java:496) send (005) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:51:13,597 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:51:23,149 (ActivitySequencer.java:496) send (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:51:24,023 (ActivitySequencer.java:496) send (006) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:51:33,151 (ActivitySequencer.java:496) send (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:51:43,153 (ActivitySequencer.java:496) send (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:51:43,587 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:51:53,156 (ActivitySequencer.java:496) send (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:51:53,597 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:01,873 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:02,595 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:03,368 (ActivitySequencer.java:496) send (010) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:03,654 (DirtyStateListener.java:75) Dirty state reset for: L/Phantom/src/net/toper/main/Player.java
+DEBUG 2016-05-19 14:52:04,017 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:13,161 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:13,620 (ActivitySequencer.java:496) send (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:15,613 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:17,052 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:18,618 (ActivitySequencer.java:496) send (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:19,576 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:20,027 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:20,474 (ActivitySequencer.java:496) send (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:21,479 (DirtyStateListener.java:75) Dirty state reset for: L/Phantom/src/net/toper/main/Player.java
+DEBUG 2016-05-19 14:52:21,493 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:23,163 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:23,596 (ActivitySequencer.java:496) send (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:33,165 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:33,599 (ActivitySequencer.java:496) send (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:43,167 (ActivitySequencer.java:496) send (005) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:43,897 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:53,169 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:52:53,654 (ActivitySequencer.java:496) send (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:53:03,171 (ActivitySequencer.java:496) send (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:53:04,791 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:53:13,171 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:53:13,969 (ActivitySequencer.java:496) send (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:53:23,172 (ActivitySequencer.java:496) send (005) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+ERROR 2016-05-19 14:53:53,876 (BinaryChannelConnection.java:115) [mode=IBB, id=saros-main-session] jackcbreton@saros-con.imp.fu-berlin.de/Saros network error: Stream is closed
+java.io.IOException: Stream is closed
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBInputStream.checkClosed(InBandBytestreamSession.java:395)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBInputStream.read(InBandBytestreamSession.java:305)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:288)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.readNextXMPPExtension(BinaryChannelConnection.java:347)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.access$2(BinaryChannelConnection.java:343)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection$ReceiverThread.run(BinaryChannelConnection.java:106)
+ERROR 2016-05-19 14:53:54,543 (DataTransferManager.java:270) failed to send TransferDescription [elementName=ados, namespace=de.fu_berlin.inf.dpp, recipient=jackcbreton@saros-con.imp.fu-berlin.de/Saros, sender=toper@saros-con.imp.fu-berlin.de/Saros, compress=true], connection=[mode=IBB, id=saros-main-session] jackcbreton@saros-con.imp.fu-berlin.de/Saros:Error while sending Data: No response from server.
+java.io.IOException: Error while sending Data: No response from server.
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IQIBBOutputStream.writeToXML(InBandBytestreamSession.java:769)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flushBuffer(InBandBytestreamSession.java:707)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flush(InBandBytestreamSession.java:691)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:141)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.sendData(BinaryChannelConnection.java:525)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.splitAndSend(BinaryChannelConnection.java:560)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:325)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:501)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:482)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:152)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 2016-05-19 14:53:54,543 (DataTransferManager.java:336) closed connection [pool id=saros-main-session:in:jackcbreton@saros-con.imp.fu-berlin.de/Saros]: [mode=IBB, id=saros-main-session] jackcbreton@saros-con.imp.fu-berlin.de/Saros
+ERROR 2016-05-19 14:53:54,543 (DataTransferManager.java:270) failed to send TransferDescription [elementName=ping, namespace=de.fu_berlin.inf.dpp, recipient=jackcbreton@saros-con.imp.fu-berlin.de/Saros, sender=toper@saros-con.imp.fu-berlin.de/Saros, compress=true], connection=[mode=IBB, id=saros-main-session] jackcbreton@saros-con.imp.fu-berlin.de/Saros:connection is closed
+java.io.EOFException: connection is closed
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:103)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 2016-05-19 14:53:54,554 (ServerSessionTimeoutHandler.java:113) failed to send ping to: jackcbreton@saros-con.imp.fu-berlin.de/Saros
+java.io.EOFException: connection is closed
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:103)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 2016-05-19 14:53:54,546 (ActivitySequencer.java:504) failed to sent activities: [ChecksumActivity(path: SPath [path=src/net/toper/main/Background.java, project=Phantom], hash: 113809856, length: 568, jupiterTimestamp: [0,0]), ChecksumActivity(path: SPath [path=src/net/toper/main/Render.java, project=Phantom], hash: 1619146915, length: 423, jupiterTimestamp: [0,0]), ChecksumActivity(path: SPath [path=src/net/toper/main/Road.java, project=Phantom], hash: -1199802694, length: 479, jupiterTimestamp: [0,0]), ChecksumActivity(path: SPath [path=src/net/toper/main/Player.java, project=Phantom], hash: -2089397432, length: 3081, jupiterTimestamp: [30,0]), ChecksumActivity(path: SPath [path=src/net/toper/util/SimplexNoise.java, project=Phantom], hash: 1495763045, length: 5842, jupiterTimestamp: [0,0])]
+java.io.IOException: Error while sending Data: No response from server.
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IQIBBOutputStream.writeToXML(InBandBytestreamSession.java:769)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flushBuffer(InBandBytestreamSession.java:707)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flush(InBandBytestreamSession.java:691)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:141)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.sendData(BinaryChannelConnection.java:525)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.splitAndSend(BinaryChannelConnection.java:560)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:325)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:501)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:482)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:152)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 2016-05-19 14:53:54,558 (ChangeColorManager.java:290) reassigning color IDs for the current session users
+DEBUG 2016-05-19 14:53:54,564 (ChangeColorManager.java:324) color conflict resolve result = NO CONFLICT
+DEBUG 2016-05-19 14:53:54,564 (ChangeColorManager.java:383) new color assignment: {toper@saros-con.imp.fu-berlin.de/Saros=2}
+DEBUG 2016-05-19 14:53:54,565 (ChangeColorManager.java:634) updating color id set: [toper@saros-con.imp.fu-berlin.de]
+INFO  2016-05-19 14:53:54,567 (ParticipantCollector.java:77) jackcbreton@saros-con.imp.fu-berlin.de/Saros left - session now contains 1 users
+INFO  2016-05-19 14:55:14,476 (SarosSession.java:555) user jackcbreton@saros-con.imp.fu-berlin.de/Saros left session
+INFO  2016-05-19 14:55:41,208 (SingleUserChatService.java:84) chat created between toper@saros-con.imp.fu-berlin.de/Saros <->jackcbreton@saros-con.imp.fu-berlin.de/Saros, created local: false
+DEBUG 2016-05-19 14:55:44,206 (SarosSessionManager.java:330) terminating all running negotiation processes
+DEBUG 2016-05-19 14:55:44,207 (SarosSessionManager.java:337) Leave message sent.
+DEBUG 2016-05-19 14:55:44,209 (ActivityHandler.java:109) activity dispatcher stopped
+INFO  2016-05-19 14:55:44,210 (FeedbackManager.java:104) Session lasted 10 min 31 s
+INFO  2016-05-19 14:55:44,213 (FeedbackManager.java:119) Sessions until next survey: 2
+DEBUG 2016-05-19 14:55:44,214 (FollowModeCollector.java:177) Processing follow mode changes took 0.0 s
+INFO  2016-05-19 14:55:44,220 (ParticipantCollector.java:145) Session ended: Current number of participants: 1
+DEBUG 2016-05-19 14:55:44,222 (StatisticManager.java:329) Session statistic:
+  auto.followmode.enabled=false
+  data_transfer.IBB.average_throughput_kbs=0.3
+  data_transfer.IBB.number_of_events=149
+  data_transfer.IBB.total_size_kb=51
+  data_transfer.IBB.total_time_ms=187185
+  feedback.disabled=true
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.8.0_60
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Windows 7
+  platform.version=3.11.1.v20150903-1804
+  random.user.id=2016-05-10_15-02-26_1284877035
+  role.1.duration=10.52
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=10.52
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=14.10.31
+  session.count=8
+  session.id=480872429
+  session.local.start=2016-05-19T18:55:44Z
+  session.shared.project.complete.count=1
+  session.shared.project.partial.count=0
+  session.shared.project.partial.files.count=0
+  session.time.users.1.percent=34
+  session.time.users.1=3.57
+  session.time.users.2.percent=66
+  session.time.users.2=6.95
+  session.time=10.52
+  session.users.total=2
+  textedits.chars=14
+  textedits.count=14
+  textedits.nonparallel.chars=14
+  textedits.nonparallel.percent=100
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  user.is.host=true
+INFO  2016-05-19 14:55:44,223 (StatisticManager.java:243) User does not allow to submit session statistics
+DEBUG 2016-05-19 14:55:44,231 (EditorManager.java:1697) unlocking all editors
+DEBUG 2016-05-19 14:55:44,232 (XStreamExtensionProvider.java:169) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2016-05-19 14:55:44,233 (XStreamExtensionProvider.java:216) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2016-05-19 14:55:44,247 (MultiUserChatService.java:135) leaving multi user chat de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat@783c3f22
+DEBUG 2016-05-19 14:55:44,373 (DocumentRecord.java:93) Added Node: attr(146368414437371591) name=svg
+DEBUG 2016-05-19 14:55:44,373 (SharedProjectDecorator.java:93) clearing project decoration for all shared projects
+INFO  2016-05-19 14:55:44,374 (SarosSessionManager.java:351) session stopped
+DEBUG 2016-05-19 14:55:56,652 (VersionManager.java:90) received version request from jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:55:56,652 (VersionManager.java:160) send version response to jackcbreton@saros-con.imp.fu-berlin.de/Saros
+INFO  2016-05-19 14:55:56,908 (InvitationHandler.java:115) received invitation from jackcbreton@saros-con.imp.fu-berlin.de/Saros [invitation id: 8053935496583149282, session id: 707483113, version: 14.10.31]
+DEBUG 2016-05-19 14:55:58,160 (IncomingSessionNegotiation.java:103) ISN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : invitation accepted
+DEBUG 2016-05-19 14:55:58,161 (IncomingSessionNegotiation.java:188) ISN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : sending invitation accepted confirmation
+DEBUG 2016-05-19 14:55:58,161 (IncomingSessionNegotiation.java:219) ISN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : sending session negotiation data
+DEBUG 2016-05-19 14:55:58,161 (IncomingSessionNegotiation.java:232) ISN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : waiting for host's session parameters
+DEBUG 2016-05-19 14:55:59,557 (IncomingSessionNegotiation.java:252) ISN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : received host's session parameters
+DEBUG 2016-05-19 14:55:59,558 (IncomingSessionNegotiation.java:265) ISN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : initializing session
+DEBUG 2016-05-19 14:55:59,558 (MUCNegotiationManager.java:143) Got hosts Communication Config: server conference.saros-con.imp.fu-berlin.de room SAROS_707483113 pw -135497342
+INFO  2016-05-19 14:55:59,559 (StatisticManager.java:184) Current feedback settings:
+  Feedback disabled: true
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2016-05-19 14:55:59,560 (ErrorLogManager.java:257) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2016-05-19 14:55:59,562 (SarosSessionManager.java:281) joined uninitialized Saros session
+INFO  2016-05-19 14:55:59,563 (DataTransferManager.java:409) establishing connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros from toper@saros-con.imp.fu-berlin.de/Saros using transport XMPP-Socks5-Transport
+DEBUG 2016-05-19 14:55:59,563 (ByteStreamTransport.java:45) establishing bytestream connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:55:59,564 (Socks5Transport.java:493) [SOCKS5Transport] establishing connection to jackcbreton@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.56.1, 10.16.136.202]]...
+WARN  2016-05-19 14:56:00,701 (Socks5Transport.java:544) [SOCKS5Transport] could not establish a connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host
+DEBUG 2016-05-19 14:56:00,715 (Socks5Transport.java:567) [SOCKS5Transport] waiting for jackcbreton@saros-con.imp.fu-berlin.de/Saros to establish a connection...
+DEBUG 2016-05-19 14:56:01,362 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@2735f6af]
+DEBUG 2016-05-19 14:56:01,362 (Socks5Transport.java:311) [SOCKS5Transport] receiving response connection from jackcbreton@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.56.1, 10.16.136.202]]
+ERROR 2016-05-19 14:56:01,363 (ByteStreamTransport.java:105) could not establish bytestream connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN  2016-05-19 14:56:30,720 (DataTransferManager.java:415) failed to connect to jackcbreton@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connect(DataTransferManager.java:297)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingSessionNegotiation.accept(IncomingSessionNegotiation.java:167)
+	at de.fu_berlin.inf.dpp.ui.wizards.JoinSessionWizard$2.run(JoinSessionWizard.java:128)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 6 more
+INFO  2016-05-19 14:56:30,721 (DataTransferManager.java:409) establishing connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros from toper@saros-con.imp.fu-berlin.de/Saros using transport XMPP-IBB-Transport
+DEBUG 2016-05-19 14:56:30,722 (ByteStreamTransport.java:45) establishing bytestream connection to jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:56:30,945 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=saros-main-session] jackcbreton@saros-con.imp.fu-berlin.de/Saros, inc=false, pool id=saros-main-session:out:jackcbreton@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-05-19 14:56:30,945 (IncomingSessionNegotiation.java:304) ISN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : starting session
+DEBUG 2016-05-19 14:56:30,946 (BinaryChannelConnection.java:103) [mode=IBB, id=saros-main-session] jackcbreton@saros-con.imp.fu-berlin.de/Saros ReceiverThread started.
+DEBUG 2016-05-19 14:56:30,947 (MultiUserChatService.java:100) Joining MUC...
+DEBUG 2016-05-19 14:56:30,947 (MultiUserChat.java:264) Trying to create room on server conference.saros-con.imp.fu-berlin.de
+INFO  2016-05-19 14:56:30,947 (StatisticManager.java:163) Session count: 9
+INFO  2016-05-19 14:56:30,948 (ParticipantCollector.java:134) Session started: Current number of participants: 2
+DEBUG 2016-05-19 14:56:30,949 (ActivityHandler.java:89) activity dispatcher started
+DEBUG 2016-05-19 14:56:30,949 (XStreamExtensionProvider.java:144) Renewing existing converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2016-05-19 14:56:30,949 (XStreamExtensionProvider.java:189) Renewing existing converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2016-05-19 14:56:30,950 (ConsistencyAction.java:173) Inconsistency indicator goes: off
+DEBUG 2016-05-19 14:56:30,951 (WhiteboardManager.java:108) Preparing Whiteboard for receiving an invitation
+DEBUG 2016-05-19 14:56:30,963 (ColorUtils.java:21) set foregroundcolor RGB {186, 220, 81}
+DEBUG 2016-05-19 14:56:30,964 (IncomingSessionNegotiation.java:318) ISN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : invitation has completed successfully
+WARN  2016-05-19 14:56:31,098 (SubscriptionHandler.java:148) received error presence package from saros_707483113@conference.saros-con.imp.fu-berlin.de/toper@saros-con.imp.fu-berlin.de/Saros, condition: not-authorized, message: A password is required to enter this room
+DEBUG 2016-05-19 14:56:31,740 (MultiUserChat.java:297) MUC joined. Server: conference.saros-con.imp.fu-berlin.de Room: SAROS_707483113 Password -135497342
+DEBUG 2016-05-19 14:56:31,742 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-05-19 14:56:31,742 (MultiUserChatStateManager.java:101) Incoming Message from saros_707483113@conference.saros-con.imp.fu-berlin.de/jackcbreton@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2016-05-19 14:56:31,742 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2016-05-19 14:56:32,051 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-05-19 14:56:32,052 (MultiUserChatStateManager.java:101) Incoming Message from saros_707483113@conference.saros-con.imp.fu-berlin.de/toper@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2016-05-19 14:56:32,052 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2016-05-19 14:56:32,279 (IncomingSessionNegotiation.java:331) ISN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : invitation complete confirmation sent
+DEBUG 2016-05-19 14:56:32,858 (UserInformationHandler.java:293) received user list from jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:56:32,859 (UserInformationHandler.java:317) updating permissions for user: jackcbreton@saros-con.imp.fu-berlin.de/Saros [WRITE_ACCESS]
+DEBUG 2016-05-19 14:56:32,859 (UserInformationHandler.java:317) updating permissions for user: toper@saros-con.imp.fu-berlin.de/Saros [WRITE_ACCESS]
+DEBUG 2016-05-19 14:56:32,859 (UserInformationHandler.java:347) sending user list received confirmation to jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:56:34,256 (CancelableProcess.java:353) process ISN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] exit status: OK
+DEBUG 2016-05-19 14:56:34,880 (SXEIncomingSynchronizationProcess.java:65) SXE(6642) invitation from jackcbreton@saros-con.imp.fu-berlin.de/Saros received
+DEBUG 2016-05-19 14:56:34,881 (SXEController.java:537) Whiteboard state changed from INIT to CONNECTING
+DEBUG 2016-05-19 14:56:34,881 (SXEIncomingSynchronizationProcess.java:87) SXE(6642) queue incoming records from now
+DEBUG 2016-05-19 14:56:34,881 (SarosSXETransmitter.java:151) SXE send accept-state to jackcbreton@saros-con.imp.fu-berlin.de/Saros waiting for [state]
+DEBUG 2016-05-19 14:56:34,955 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:56:34,956 (ChangeColorManager.java:238) received color id change fo user : jackcbreton@saros-con.imp.fu-berlin.de/Saros [1]
+DEBUG 2016-05-19 14:56:34,957 (ChangeColorManager.java:634) updating color id set: [jackcbreton@saros-con.imp.fu-berlin.de, toper@saros-con.imp.fu-berlin.de]
+DEBUG 2016-05-19 14:56:34,958 (ChangeColorManager.java:238) received color id change fo user : toper@saros-con.imp.fu-berlin.de/Saros [2]
+DEBUG 2016-05-19 14:56:34,959 (ChangeColorManager.java:634) updating color id set: [jackcbreton@saros-con.imp.fu-berlin.de, toper@saros-con.imp.fu-berlin.de]
+DEBUG 2016-05-19 14:56:35,769 (SXEIncomingSynchronizationProcess.java:99) SXE(6642) state received
+DEBUG 2016-05-19 14:56:35,769 (SXEController.java:137) SXE (6642): receive state and start session at invitee side
+DEBUG 2016-05-19 14:56:35,770 (DocumentRecord.java:93) Added Node: attr(146368403520496113) name=svg
+INFO  2016-05-19 14:56:46,816 (InvitationHandler.java:179) received project negotiation from jackcbreton@saros-con.imp.fu-berlin.de/Saros with session id: 707483113 and negotiation id: 4328101608327889547
+INFO  2016-05-19 14:56:46,854 (ProjectNegotiationObservable.java:51) This is ProjectNegotiation number 2 in this session. There are 0 process(es) in this session
+DEBUG 2016-05-19 14:57:44,186 (IncomingProjectNegotiation.java:388) compute required files for project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@ef531621 - P/Phantom with ID: 234887647
+DEBUG 2016-05-19 14:57:44,263 (IncomingProjectNegotiation.java:612) IPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : computing file list difference
+DEBUG 2016-05-19 14:57:44,306 (IncomingProjectNegotiation.java:583) IPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : 2 file(s) must be synchronized
+DEBUG 2016-05-19 14:57:45,311 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:57:45,311 (EditorManager.java:1697) locking all editors
+DEBUG 2016-05-19 14:57:45,312 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:57:46,761 (SarosProjectMapper.java:179) added project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@ef531621 - P/Phantom with ID 234887647 [completely shared:false]
+DEBUG 2016-05-19 14:57:47,608 (IncomingProjectNegotiation.java:865) waiting for incoming archive stream request
+DEBUG 2016-05-19 14:57:48,208 (IncomingProjectNegotiation.java:882) IPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : receiving archive
+DEBUG 2016-05-19 14:57:48,274 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:57:48,274 (EditorManager.java:1697) unlocking all editors
+DEBUG 2016-05-19 14:57:48,275 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:57:53,819 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:57:54,317 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:57:55,083 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:57:55,712 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:57:56,941 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:57:57,553 (ActivitySequencer.java:546) rcvd (004) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:57:58,699 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:57:59,201 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:00,562 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:01,111 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:01,639 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:02,134 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:02,639 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:03,126 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:03,651 (ActivitySequencer.java:546) rcvd (006) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:04,179 (ActivitySequencer.java:546) rcvd (006) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:04,658 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:05,149 (ActivitySequencer.java:546) rcvd (004) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:05,622 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:06,120 (ActivitySequencer.java:546) rcvd (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:06,691 (ActivitySequencer.java:546) rcvd (004) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:07,158 (ActivitySequencer.java:546) rcvd (009) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:07,641 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:08,453 (ActivitySequencer.java:546) rcvd (004) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:10,202 (ActivitySequencer.java:546) rcvd (006) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:11,100 (ActivitySequencer.java:546) rcvd (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:11,579 (ActivitySequencer.java:546) rcvd (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:12,046 (ActivitySequencer.java:546) rcvd (005) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:12,520 (ActivitySequencer.java:546) rcvd (006) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:13,071 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:13,646 (ActivitySequencer.java:546) rcvd (004) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:14,451 (ActivitySequencer.java:546) rcvd (005) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:14,987 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:15,455 (ActivitySequencer.java:546) rcvd (004) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:15,939 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:16,422 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:16,905 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:17,408 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:17,879 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:18,411 (ActivitySequencer.java:546) rcvd (004) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:18,851 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:19,415 (IncomingProjectNegotiation.java:906) IPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : stored archive in file C:\Users\ADMINI~1.AER\AppData\Local\Temp\saros_archive_14636842682094655335670957246374.tmp, size: 425.1 kB
+DEBUG 2016-05-19 14:58:19,416 (IncomingProjectNegotiation.java:672) IPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] : unpacking archive file...
+DEBUG 2016-05-19 14:58:19,519 (ActivitySequencer.java:546) rcvd (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:19,584 (IncomingProjectNegotiation.java:691) unpacked archive in 0 s
+DEBUG 2016-05-19 14:58:19,585 (SarosProjectMapper.java:165) upgraded partially shared project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@ef531621 - P/Phantom with ID 234887647 to a completely shared project
+DEBUG 2016-05-19 14:58:19,587 (SharedProjectDecorator.java:99) updating project decoration for all shared projects
+DEBUG 2016-05-19 14:58:19,588 (CancelableProcess.java:353) process IPN [remote side: jackcbreton@saros-con.imp.fu-berlin.de/Saros] exit status: OK
+DEBUG 2016-05-19 14:58:19,761 (EditorManager.java:1444) Saved document: SPath [path=src/net/toper/main/Main.java, project=Phantom]
+DEBUG 2016-05-19 14:58:19,762 (EditorManager.java:1403) .saveText File Main.java does not need to be saved
+DEBUG 2016-05-19 14:58:20,040 (ActivitySequencer.java:496) send (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+INFO  2016-05-19 14:58:20,042 (SarosSession.java:482) user jackcbreton@saros-con.imp.fu-berlin.de/Saros now has Projects and can process IResourceActivities
+DEBUG 2016-05-19 14:58:20,542 (ActivitySequencer.java:496) send (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:21,090 (ActivitySequencer.java:496) send (012) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:21,943 (EditorListener.java:236) Viewport changed: 0+27
+DEBUG 2016-05-19 14:58:21,958 (EditorListener.java:236) Viewport changed: 0+25
+DEBUG 2016-05-19 14:58:21,965 (EditorListener.java:236) Viewport changed: 0+8
+DEBUG 2016-05-19 14:58:21,968 (EditorListener.java:236) Viewport changed: 0+29
+DEBUG 2016-05-19 14:58:21,974 (EditorListener.java:236) Viewport changed: 0+22
+DEBUG 2016-05-19 14:58:21,980 (EditorListener.java:236) Viewport changed: 0+32
+DEBUG 2016-05-19 14:58:21,986 (EditorListener.java:236) Viewport changed: 0+30
+DEBUG 2016-05-19 14:58:21,993 (EditorListener.java:236) Viewport changed: 0+32
+DEBUG 2016-05-19 14:58:22,003 (EditorManager.java:1444) Saved document: SPath [path=src/net/toper/main/Main.java, project=Phantom]
+DEBUG 2016-05-19 14:58:22,004 (EditorManager.java:1403) .saveText File Main.java does not need to be saved
+DEBUG 2016-05-19 14:58:22,371 (ActivitySequencer.java:496) send (026) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:22,382 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:22,383 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:22,433 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:22,731 (EditorManager.java:1444) Saved document: SPath [path=src/net/toper/main/Main.java, project=Phantom]
+DEBUG 2016-05-19 14:58:22,732 (EditorManager.java:1403) .saveText File Main.java does not need to be saved
+DEBUG 2016-05-19 14:58:22,871 (ActivitySequencer.java:496) send (011) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:27,624 (ActivitySequencer.java:546) rcvd (009) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:37,534 (ActivitySequencer.java:546) rcvd (006) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:37,996 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:47,917 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:48,545 (ActivitySequencer.java:546) rcvd (006) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:57,563 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:58:57,996 (ActivitySequencer.java:546) rcvd (006) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:07,557 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:08,015 (ActivitySequencer.java:546) rcvd (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:13,589 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:14,216 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:15,797 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:16,401 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:17,576 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:18,016 (ActivitySequencer.java:546) rcvd (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:18,454 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:20,070 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:20,499 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:21,019 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:21,065 (EditorManager.java:1444) Saved document: SPath [path=src/net/toper/main/Main.java, project=Phantom]
+DEBUG 2016-05-19 14:59:21,066 (EditorManager.java:1403) .saveText File Main.java does not need to be saved
+DEBUG 2016-05-19 14:59:21,428 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:21,874 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:22,771 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:23,269 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:23,716 (ActivitySequencer.java:546) rcvd (006) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:24,183 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:24,641 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:25,077 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:25,511 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:26,369 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:26,387 (EditorManager.java:1444) Saved document: SPath [path=src/net/toper/main/Main.java, project=Phantom]
+DEBUG 2016-05-19 14:59:27,078 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:27,079 (EditorManager.java:1403) .saveText File Main.java does not need to be saved
+DEBUG 2016-05-19 14:59:27,712 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:28,341 (ActivitySequencer.java:546) rcvd (009) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:37,598 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:38,032 (ActivitySequencer.java:546) rcvd (006) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:42,412 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:42,847 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:43,282 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:43,715 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:44,155 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:45,249 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:45,691 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:46,739 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:47,618 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:48,071 (ActivitySequencer.java:546) rcvd (009) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:48,514 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:48,960 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:50,553 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:51,000 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:51,439 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:51,876 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:52,311 (ActivitySequencer.java:546) rcvd (005) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:52,332 (EditorManager.java:1444) Saved document: SPath [path=src/net/toper/main/Main.java, project=Phantom]
+DEBUG 2016-05-19 14:59:52,333 (EditorManager.java:1403) .saveText File Main.java does not need to be saved
+DEBUG 2016-05-19 14:59:53,297 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:53,933 (ActivitySequencer.java:546) rcvd (006) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:54,553 (ActivitySequencer.java:546) rcvd (005) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:55,181 (ActivitySequencer.java:546) rcvd (005) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:55,724 (ActivitySequencer.java:546) rcvd (009) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:56,166 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:56,604 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:57,685 (ActivitySequencer.java:546) rcvd (009) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:58,124 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:58,557 (ActivitySequencer.java:546) rcvd (008) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:58,991 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 14:59:59,950 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:00,382 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:00,816 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:01,259 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:01,775 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:02,214 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:02,660 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:03,154 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:03,586 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:03,606 (EditorManager.java:1444) Saved document: SPath [path=src/net/toper/main/Main.java, project=Phantom]
+DEBUG 2016-05-19 15:00:03,606 (EditorManager.java:1403) .saveText File Main.java does not need to be saved
+DEBUG 2016-05-19 15:00:08,026 (ActivitySequencer.java:546) rcvd (005) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:08,634 (ActivitySequencer.java:546) rcvd (004) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:10,602 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:11,637 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:12,087 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:13,844 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:14,306 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:14,768 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:15,213 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:15,686 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:16,125 (ActivitySequencer.java:546) rcvd (003) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:17,364 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:17,881 (ActivitySequencer.java:546) rcvd (011) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:18,336 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:18,353 (EditorManager.java:1444) Saved document: SPath [path=src/net/toper/main/Main.java, project=Phantom]
+DEBUG 2016-05-19 15:00:18,353 (EditorManager.java:1403) .saveText File Main.java does not need to be saved
+DEBUG 2016-05-19 15:00:27,666 (ActivitySequencer.java:546) rcvd (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:28,106 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:30,782 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:31,717 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:32,376 (ActivitySequencer.java:546) rcvd (004) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:32,997 (ActivitySequencer.java:546) rcvd (004) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:33,613 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:34,287 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:35,245 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:35,260 (EditorManager.java:1444) Saved document: SPath [path=src/net/toper/main/Main.java, project=Phantom]
+DEBUG 2016-05-19 15:00:35,745 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:35,745 (EditorManager.java:1403) .saveText File Main.java does not need to be saved
+DEBUG 2016-05-19 15:00:37,701 (ActivitySequencer.java:546) rcvd (002) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:38,160 (ActivitySequencer.java:546) rcvd (007) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:45,838 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:47,412 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:47,945 (ActivitySequencer.java:546) rcvd (010) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:48,395 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:50,112 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:50,570 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:00:51,008 (ActivitySequencer.java:546) rcvd (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:03:52,718 (ActivitySequencer.java:496) send (001) jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 15:03:52,942 (EditorListener.java:236) Viewport changed: 0+32
+DEBUG 2016-05-19 15:03:54,271 (EditorListener.java:236) Viewport changed: 12+27
+DEBUG 2016-05-19 15:03:54,365 (EditorListener.java:236) Viewport changed: 25+27
+DEBUG 2016-05-19 15:03:54,487 (EditorListener.java:236) Viewport changed: 46+27
+DEBUG 2016-05-19 15:03:54,596 (EditorListener.java:236) Viewport changed: 64+26
+DEBUG 2016-05-19 15:03:54,717 (EditorListener.java:236) Viewport changed: 80+27
+DEBUG 2016-05-19 15:03:54,817 (EditorListener.java:236) Viewport changed: 94+27
+DEBUG 2016-05-19 15:03:55,013 (EditorListener.java:236) Viewport changed: 107+27
+DEBUG 2016-05-19 15:03:55,106 (EditorListener.java:236) Viewport changed: 119+27
+DEBUG 2016-05-19 15:03:55,204 (EditorListener.java:236) Viewport changed: 130+26
+DEBUG 2016-05-19 15:03:55,390 (EditorListener.java:236) Viewport changed: 164+27
+DEBUG 2016-05-19 15:03:55,469 (EditorListener.java:236) Viewport changed: 180+27
+DEBUG 2016-05-19 15:03:55,659 (EditorListener.java:236) Viewport changed: 249+27
+DEBUG 2016-05-19 15:03:55,748 (EditorListener.java:236) Viewport changed: 308+27
+DEBUG 2016-05-19 15:03:55,776 (EditorListener.java:236) Viewport changed: 361+27
+DEBUG 2016-05-19 15:03:55,797 (EditorListener.java:236) Viewport changed: 405+27
+DEBUG 2016-05-19 15:03:55,814 (EditorListener.java:236) Viewport changed: 445+27
+DEBUG 2016-05-19 15:03:55,834 (EditorListener.java:236) Viewport changed: 480+27
+DEBUG 2016-05-19 15:03:55,854 (EditorListener.java:236) Viewport changed: 511+27
+DEBUG 2016-05-19 15:03:55,873 (EditorListener.java:236) Viewport changed: 538+27
+DEBUG 2016-05-19 15:03:55,892 (EditorListener.java:236) Viewport changed: 562+27
+DEBUG 2016-05-19 15:03:55,909 (EditorListener.java:236) Viewport changed: 583+27
+DEBUG 2016-05-19 15:03:55,925 (EditorListener.java:236) Viewport changed: 601+26
+DEBUG 2016-05-19 15:03:55,945 (EditorListener.java:236) Viewport changed: 618+27
+DEBUG 2016-05-19 15:03:55,962 (EditorListener.java:236) Viewport changed: 633+26
+DEBUG 2016-05-19 15:03:55,985 (EditorListener.java:236) Viewport changed: 646+26
+DEBUG 2016-05-19 15:03:56,000 (EditorListener.java:236) Viewport changed: 658+26
+DEBUG 2016-05-19 15:03:56,014 (EditorListener.java:236) Viewport changed: 668+27
+DEBUG 2016-05-19 15:03:56,027 (EditorListener.java:236) Viewport changed: 678+27
+DEBUG 2016-05-19 15:03:56,041 (EditorListener.java:236) Viewport changed: 687+26
+DEBUG 2016-05-19 15:03:56,059 (EditorListener.java:236) Viewport changed: 694+27
+DEBUG 2016-05-19 15:03:56,078 (EditorListener.java:236) Viewport changed: 701+27
+DEBUG 2016-05-19 15:03:56,091 (EditorListener.java:236) Viewport changed: 707+27
+DEBUG 2016-05-19 15:03:56,115 (EditorListener.java:236) Viewport changed: 713+27
+DEBUG 2016-05-19 15:03:56,130 (EditorListener.java:236) Viewport changed: 718+27
+DEBUG 2016-05-19 15:03:56,141 (EditorListener.java:236) Viewport changed: 724+27
+DEBUG 2016-05-19 15:03:56,155 (EditorListener.java:236) Viewport changed: 728+27
+DEBUG 2016-05-19 15:03:56,168 (EditorListener.java:236) Viewport changed: 733+26
+DEBUG 2016-05-19 15:03:56,182 (EditorListener.java:236) Viewport changed: 736+27
+DEBUG 2016-05-19 15:03:56,203 (EditorListener.java:236) Viewport changed: 740+27
+DEBUG 2016-05-19 15:03:56,219 (EditorListener.java:236) Viewport changed: 743+27
+DEBUG 2016-05-19 15:03:56,229 (EditorListener.java:236) Viewport changed: 746+27
+DEBUG 2016-05-19 15:03:56,240 (EditorListener.java:236) Viewport changed: 749+27
+DEBUG 2016-05-19 15:03:56,263 (EditorListener.java:236) Viewport changed: 751+27
+DEBUG 2016-05-19 15:03:56,277 (EditorListener.java:236) Viewport changed: 754+27
+DEBUG 2016-05-19 15:03:56,527 (EditorListener.java:236) Viewport changed: 756+27
+DEBUG 2016-05-19 15:03:56,552 (EditorListener.java:236) Viewport changed: 757+27
+DEBUG 2016-05-19 15:03:56,577 (EditorListener.java:236) Viewport changed: 759+26
+DEBUG 2016-05-19 15:03:56,603 (EditorListener.java:236) Viewport changed: 761+27
+DEBUG 2016-05-19 15:03:56,630 (EditorListener.java:236) Viewport changed: 766+27
+DEBUG 2016-05-19 15:03:56,661 (EditorListener.java:236) Viewport changed: 770+27
+DEBUG 2016-05-19 15:03:56,687 (EditorListener.java:236) Viewport changed: 775+27
+DEBUG 2016-05-19 15:03:57,337 (EditorListener.java:236) Viewport changed: 778+27
+DEBUG 2016-05-19 15:03:58,737 (EditorListener.java:236) Viewport changed: 775+27
+DEBUG 2016-05-19 15:03:58,751 (EditorListener.java:236) Viewport changed: 773+27
+DEBUG 2016-05-19 15:03:58,801 (EditorListener.java:236) Viewport changed: 772+27
+DEBUG 2016-05-19 15:03:58,884 (EditorListener.java:236) Viewport changed: 771+27
+DEBUG 2016-05-19 15:03:59,402 (EditorListener.java:236) Viewport changed: 770+26
+DEBUG 2016-05-19 15:03:59,411 (EditorListener.java:236) Viewport changed: 768+26
+DEBUG 2016-05-19 15:03:59,465 (EditorListener.java:236) Viewport changed: 766+27
+DEBUG 2016-05-19 15:03:59,520 (EditorListener.java:236) Viewport changed: 765+26
+DEBUG 2016-05-19 15:03:59,600 (EditorListener.java:236) Viewport changed: 764+26
+DEBUG 2016-05-19 15:04:00,117 (EditorListener.java:236) Viewport changed: 761+26
+DEBUG 2016-05-19 15:04:00,159 (EditorListener.java:236) Viewport changed: 759+27
+DEBUG 2016-05-19 15:04:00,241 (EditorListener.java:236) Viewport changed: 758+27
+DEBUG 2016-05-19 15:04:00,321 (EditorListener.java:236) Viewport changed: 757+27
+DEBUG 2016-05-19 15:04:00,771 (EditorListener.java:236) Viewport changed: 755+27
+DEBUG 2016-05-19 15:04:00,824 (EditorListener.java:236) Viewport changed: 754+26
+DEBUG 2016-05-19 15:04:00,904 (EditorListener.java:236) Viewport changed: 752+27
+DEBUG 2016-05-19 15:04:00,984 (EditorListener.java:236) Viewport changed: 751+27
+DEBUG 2016-05-19 15:04:01,459 (EditorListener.java:236) Viewport changed: 750+27
+DEBUG 2016-05-19 15:04:01,508 (EditorListener.java:236) Viewport changed: 749+27
+DEBUG 2016-05-19 15:04:01,586 (EditorListener.java:236) Viewport changed: 748+27
+DEBUG 2016-05-19 15:04:01,721 (EditorListener.java:236) Viewport changed: 747+27
+DEBUG 2016-05-19 15:04:02,095 (EditorListener.java:236) Viewport changed: 746+27
+DEBUG 2016-05-19 15:04:02,106 (EditorListener.java:236) Viewport changed: 745+27
+DEBUG 2016-05-19 15:04:02,159 (EditorListener.java:236) Viewport changed: 743+27
+DEBUG 2016-05-19 15:04:02,190 (EditorListener.java:236) Viewport changed: 742+26
+DEBUG 2016-05-19 15:04:02,216 (EditorListener.java:236) Viewport changed: 741+26
+DEBUG 2016-05-19 15:04:02,270 (EditorListener.java:236) Viewport changed: 739+27
+DEBUG 2016-05-19 15:04:02,725 (EditorListener.java:236) Viewport changed: 737+27
+DEBUG 2016-05-19 15:04:02,751 (EditorListener.java:236) Viewport changed: 736+27
+DEBUG 2016-05-19 15:04:03,321 (EditorListener.java:236) Viewport changed: 735+27
+DEBUG 2016-05-19 15:04:03,400 (EditorListener.java:236) Viewport changed: 734+27
+DEBUG 2016-05-19 15:04:03,507 (EditorListener.java:236) Viewport changed: 733+27
+DEBUG 2016-05-19 15:04:03,585 (EditorListener.java:236) Viewport changed: 731+27
+DEBUG 2016-05-19 15:04:03,639 (EditorListener.java:236) Viewport changed: 730+27
+DEBUG 2016-05-19 15:04:04,851 (EditorListener.java:236) Viewport changed: 732+27
+DEBUG 2016-05-19 15:04:04,863 (EditorListener.java:236) Viewport changed: 735+27
+DEBUG 2016-05-19 15:04:04,890 (EditorListener.java:236) Viewport changed: 737+27
+DEBUG 2016-05-19 15:04:04,917 (EditorListener.java:236) Viewport changed: 738+27
+DEBUG 2016-05-19 15:04:05,156 (EditorListener.java:236) Viewport changed: 739+27
+DEBUG 2016-05-19 15:04:06,213 (EditorListener.java:236) Viewport changed: 736+27
+DEBUG 2016-05-19 15:04:06,240 (EditorListener.java:236) Viewport changed: 735+27
+DEBUG 2016-05-19 15:04:06,265 (EditorListener.java:236) Viewport changed: 733+27
+DEBUG 2016-05-19 15:04:06,293 (EditorListener.java:236) Viewport changed: 732+26
+DEBUG 2016-05-19 15:04:06,320 (EditorListener.java:236) Viewport changed: 730+27
+DEBUG 2016-05-19 15:04:06,346 (EditorListener.java:236) Viewport changed: 729+27
+DEBUG 2016-05-19 15:04:06,372 (EditorListener.java:236) Viewport changed: 728+27
+DEBUG 2016-05-19 15:04:06,426 (EditorListener.java:236) Viewport changed: 726+27
+DEBUG 2016-05-19 15:04:06,480 (EditorListener.java:236) Viewport changed: 725+27
+DEBUG 2016-05-19 15:04:06,959 (EditorListener.java:236) Viewport changed: 716+27
+DEBUG 2016-05-19 15:04:06,975 (EditorListener.java:236) Viewport changed: 713+27
+DEBUG 2016-05-19 15:04:07,001 (EditorListener.java:236) Viewport changed: 711+27
+DEBUG 2016-05-19 15:04:07,026 (EditorListener.java:236) Viewport changed: 710+27
+DEBUG 2016-05-19 15:04:07,054 (EditorListener.java:236) Viewport changed: 709+27
+DEBUG 2016-05-19 15:04:07,080 (EditorListener.java:236) Viewport changed: 708+26
+DEBUG 2016-05-19 15:04:07,132 (EditorListener.java:236) Viewport changed: 707+26
+DEBUG 2016-05-19 15:04:07,577 (EditorListener.java:236) Viewport changed: 701+27
+DEBUG 2016-05-19 15:04:07,591 (EditorListener.java:236) Viewport changed: 700+27
+DEBUG 2016-05-19 15:04:07,644 (EditorListener.java:236) Viewport changed: 699+27
+DEBUG 2016-05-19 15:04:08,017 (EditorListener.java:236) Viewport changed: 698+26
+DEBUG 2016-05-19 15:04:08,043 (EditorListener.java:236) Viewport changed: 696+27
+DEBUG 2016-05-19 15:04:08,068 (EditorListener.java:236) Viewport changed: 695+26
+DEBUG 2016-05-19 15:04:08,118 (EditorListener.java:236) Viewport changed: 693+27
+DEBUG 2016-05-19 15:04:08,643 (EditorListener.java:236) Viewport changed: 683+27
+DEBUG 2016-05-19 15:04:08,656 (EditorListener.java:236) Viewport changed: 680+27
+DEBUG 2016-05-19 15:04:08,684 (EditorListener.java:236) Viewport changed: 678+27
+DEBUG 2016-05-19 15:04:08,764 (EditorListener.java:236) Viewport changed: 677+27
+DEBUG 2016-05-19 15:04:09,273 (EditorListener.java:236) Viewport changed: 679+27
+DEBUG 2016-05-19 15:04:09,300 (EditorListener.java:236) Viewport changed: 680+27
+DEBUG 2016-05-19 15:04:09,536 (EditorListener.java:236) Viewport changed: 682+26
+DEBUG 2016-05-19 15:04:09,831 (EditorListener.java:236) Viewport changed: 683+27
+DEBUG 2016-05-19 15:04:09,857 (EditorListener.java:236) Viewport changed: 684+27
+DEBUG 2016-05-19 15:04:09,908 (EditorListener.java:236) Viewport changed: 685+27
+DEBUG 2016-05-19 15:04:11,679 (EditorListener.java:236) Viewport changed: 686+27
+DEBUG 2016-05-19 15:04:11,737 (EditorListener.java:236) Viewport changed: 688+26
+DEBUG 2016-05-19 15:04:11,924 (EditorListener.java:236) Viewport changed: 689+27
+DEBUG 2016-05-19 15:04:12,002 (EditorListener.java:236) Viewport changed: 690+27
+DEBUG 2016-05-19 15:04:12,274 (EditorListener.java:236) Viewport changed: 691+27
+DEBUG 2016-05-19 15:04:12,432 (EditorListener.java:236) Viewport changed: 692+27
+DEBUG 2016-05-19 15:04:12,511 (EditorListener.java:236) Viewport changed: 693+27
+DEBUG 2016-05-19 15:04:12,593 (EditorListener.java:236) Viewport changed: 694+27
+DEBUG 2016-05-19 15:04:13,269 (EditorListener.java:236) Viewport changed: 696+27
+DEBUG 2016-05-19 15:04:13,288 (EditorListener.java:236) Viewport changed: 697+27
+DEBUG 2016-05-19 15:04:13,315 (EditorListener.java:236) Viewport changed: 699+26
+DEBUG 2016-05-19 15:04:13,368 (EditorListener.java:236) Viewport changed: 700+27
+DEBUG 2016-05-19 15:04:15,647 (EditorListener.java:236) Viewport changed: 702+26
+DEBUG 2016-05-19 15:04:15,676 (EditorListener.java:236) Viewport changed: 704+26
+DEBUG 2016-05-19 15:04:15,703 (EditorListener.java:236) Viewport changed: 706+27
+DEBUG 2016-05-19 15:04:15,731 (EditorListener.java:236) Viewport changed: 708+26
+DEBUG 2016-05-19 15:04:15,759 (EditorListener.java:236) Viewport changed: 709+26
+DEBUG 2016-05-19 15:04:15,811 (EditorListener.java:236) Viewport changed: 710+26
+DEBUG 2016-05-19 15:04:16,200 (EditorListener.java:236) Viewport changed: 721+27
+DEBUG 2016-05-19 15:04:16,211 (EditorListener.java:236) Viewport changed: 725+26
+DEBUG 2016-05-19 15:04:16,237 (EditorListener.java:236) Viewport changed: 727+26
+DEBUG 2016-05-19 15:04:16,266 (EditorListener.java:236) Viewport changed: 728+27
+DEBUG 2016-05-19 15:04:16,317 (EditorListener.java:236) Viewport changed: 729+27
+DEBUG 2016-05-19 15:04:16,557 (EditorListener.java:236) Viewport changed: 730+27
+DEBUG 2016-05-19 15:04:17,147 (EditorListener.java:236) Viewport changed: 731+27
+DEBUG 2016-05-19 15:04:17,283 (EditorListener.java:236) Viewport changed: 732+27
+DEBUG 2016-05-19 15:04:17,336 (EditorListener.java:236) Viewport changed: 733+27
+DEBUG 2016-05-19 15:04:17,416 (EditorListener.java:236) Viewport changed: 735+27
+DEBUG 2016-05-19 15:04:17,443 (EditorListener.java:236) Viewport changed: 736+27
+DEBUG 2016-05-19 15:04:17,495 (EditorListener.java:236) Viewport changed: 738+26
+DEBUG 2016-05-19 15:04:17,550 (EditorListener.java:236) Viewport changed: 739+27
+DEBUG 2016-05-19 15:04:17,604 (EditorListener.java:236) Viewport changed: 740+27
+DEBUG 2016-05-19 15:04:18,058 (EditorListener.java:236) Viewport changed: 742+26
+DEBUG 2016-05-19 15:04:18,085 (EditorListener.java:236) Viewport changed: 743+26
+DEBUG 2016-05-19 15:04:18,243 (EditorListener.java:236) Viewport changed: 744+27
+DEBUG 2016-05-19 15:04:18,273 (EditorListener.java:236) Viewport changed: 745+27
+DEBUG 2016-05-19 15:04:23,370 (BinaryChannelConnection.java:112) [mode=IBB, id=saros-main-session] jackcbreton@saros-con.imp.fu-berlin.de/Saros connection closed remotely:null
+DEBUG 2016-05-19 15:04:39,569 (EditorListener.java:236) Viewport changed: 742+26
+DEBUG 2016-05-19 15:04:39,588 (EditorListener.java:236) Viewport changed: 736+27
+DEBUG 2016-05-19 15:04:39,615 (EditorListener.java:236) Viewport changed: 729+27
+DEBUG 2016-05-19 15:04:39,644 (EditorListener.java:236) Viewport changed: 721+26
+DEBUG 2016-05-19 15:04:39,660 (EditorListener.java:236) Viewport changed: 713+27
+DEBUG 2016-05-19 15:04:39,685 (EditorListener.java:236) Viewport changed: 706+26
+DEBUG 2016-05-19 15:04:39,712 (EditorListener.java:236) Viewport changed: 699+27
+DEBUG 2016-05-19 15:04:39,718 (EditorListener.java:236) Viewport changed: 693+27
+DEBUG 2016-05-19 15:04:39,725 (EditorListener.java:236) Viewport changed: 688+27
+DEBUG 2016-05-19 15:04:39,739 (EditorListener.java:236) Viewport changed: 683+26
+DEBUG 2016-05-19 15:04:39,763 (EditorListener.java:236) Viewport changed: 678+27
+DEBUG 2016-05-19 15:04:39,774 (EditorListener.java:236) Viewport changed: 674+27
+DEBUG 2016-05-19 15:04:39,786 (EditorListener.java:236) Viewport changed: 670+27
+DEBUG 2016-05-19 15:04:39,809 (EditorListener.java:236) Viewport changed: 667+26
+DEBUG 2016-05-19 15:04:39,821 (EditorListener.java:236) Viewport changed: 664+26
+DEBUG 2016-05-19 15:04:39,834 (EditorListener.java:236) Viewport changed: 661+26
+DEBUG 2016-05-19 15:04:39,858 (EditorListener.java:236) Viewport changed: 658+26
+DEBUG 2016-05-19 15:04:39,869 (EditorListener.java:236) Viewport changed: 655+27
+DEBUG 2016-05-19 15:04:39,879 (EditorListener.java:236) Viewport changed: 652+27
+DEBUG 2016-05-19 15:04:39,903 (EditorListener.java:236) Viewport changed: 650+27
+DEBUG 2016-05-19 15:04:39,910 (EditorListener.java:236) Viewport changed: 648+27
+DEBUG 2016-05-19 15:04:39,927 (EditorListener.java:236) Viewport changed: 646+27
+DEBUG 2016-05-19 15:04:39,944 (EditorListener.java:236) Viewport changed: 644+27
+DEBUG 2016-05-19 15:04:39,956 (EditorListener.java:236) Viewport changed: 642+27
+DEBUG 2016-05-19 15:04:39,973 (EditorListener.java:236) Viewport changed: 641+27
+DEBUG 2016-05-19 15:04:39,996 (EditorListener.java:236) Viewport changed: 639+27
+DEBUG 2016-05-19 15:04:40,008 (EditorListener.java:236) Viewport changed: 638+26
+DEBUG 2016-05-19 15:04:40,020 (EditorListener.java:236) Viewport changed: 636+27
+DEBUG 2016-05-19 15:04:40,047 (EditorListener.java:236) Viewport changed: 635+27
+DEBUG 2016-05-19 15:04:40,056 (EditorListener.java:236) Viewport changed: 634+26
+DEBUG 2016-05-19 15:04:40,067 (EditorListener.java:236) Viewport changed: 633+26
+DEBUG 2016-05-19 15:04:40,093 (EditorListener.java:236) Viewport changed: 632+26
+DEBUG 2016-05-19 15:04:40,103 (EditorListener.java:236) Viewport changed: 631+26
+DEBUG 2016-05-19 15:04:40,112 (EditorListener.java:236) Viewport changed: 630+26
+DEBUG 2016-05-19 15:04:40,136 (EditorListener.java:236) Viewport changed: 629+26
+DEBUG 2016-05-19 15:04:40,160 (EditorListener.java:236) Viewport changed: 627+27
+DEBUG 2016-05-19 15:04:40,197 (EditorListener.java:236) Viewport changed: 626+26
+DEBUG 2016-05-19 15:04:40,231 (EditorListener.java:236) Viewport changed: 624+27
+DEBUG 2016-05-19 15:04:40,254 (EditorListener.java:236) Viewport changed: 623+27
+DEBUG 2016-05-19 15:04:40,285 (EditorListener.java:236) Viewport changed: 622+27
+DEBUG 2016-05-19 15:04:40,324 (EditorListener.java:236) Viewport changed: 621+27
+DEBUG 2016-05-19 15:04:40,370 (EditorListener.java:236) Viewport changed: 620+26
+DEBUG 2016-05-19 15:04:40,418 (EditorListener.java:236) Viewport changed: 618+27
+DEBUG 2016-05-19 15:04:40,465 (EditorListener.java:236) Viewport changed: 617+27
+DEBUG 2016-05-19 15:04:40,523 (EditorListener.java:236) Viewport changed: 616+27
+DEBUG 2016-05-19 15:04:40,582 (EditorListener.java:236) Viewport changed: 615+27
+DEBUG 2016-05-19 15:04:41,151 (EditorListener.java:236) Viewport changed: 624+27
+DEBUG 2016-05-19 15:04:41,159 (EditorListener.java:236) Viewport changed: 633+26
+DEBUG 2016-05-19 15:04:41,187 (EditorListener.java:236) Viewport changed: 646+27
+DEBUG 2016-05-19 15:04:41,213 (EditorListener.java:236) Viewport changed: 659+26
+DEBUG 2016-05-19 15:04:41,254 (EditorListener.java:236) Viewport changed: 682+27
+DEBUG 2016-05-19 15:04:41,266 (EditorListener.java:236) Viewport changed: 702+26
+DEBUG 2016-05-19 15:04:41,283 (EditorListener.java:236) Viewport changed: 721+27
+DEBUG 2016-05-19 15:04:41,299 (EditorListener.java:236) Viewport changed: 736+27
+DEBUG 2016-05-19 15:04:41,322 (EditorListener.java:236) Viewport changed: 750+27
+DEBUG 2016-05-19 15:04:41,331 (EditorListener.java:236) Viewport changed: 763+27
+DEBUG 2016-05-19 15:04:41,354 (EditorListener.java:236) Viewport changed: 775+26
+DEBUG 2016-05-19 15:04:41,362 (EditorListener.java:236) Viewport changed: 778+27
+DEBUG 2016-05-19 15:04:41,767 (EditorListener.java:236) Viewport changed: 771+27
+DEBUG 2016-05-19 15:04:41,781 (EditorListener.java:236) Viewport changed: 762+27
+DEBUG 2016-05-19 15:04:41,806 (EditorListener.java:236) Viewport changed: 750+27
+DEBUG 2016-05-19 15:04:41,844 (EditorListener.java:236) Viewport changed: 733+26
+DEBUG 2016-05-19 15:04:41,860 (EditorListener.java:236) Viewport changed: 716+27
+DEBUG 2016-05-19 15:04:41,883 (EditorListener.java:236) Viewport changed: 702+27
+DEBUG 2016-05-19 15:04:41,891 (EditorListener.java:236) Viewport changed: 689+27
+DEBUG 2016-05-19 15:04:41,912 (EditorListener.java:236) Viewport changed: 678+26
+DEBUG 2016-05-19 15:04:41,924 (EditorListener.java:236) Viewport changed: 667+27
+DEBUG 2016-05-19 15:04:41,938 (EditorListener.java:236) Viewport changed: 658+27
+DEBUG 2016-05-19 15:04:41,962 (EditorListener.java:236) Viewport changed: 649+27
+DEBUG 2016-05-19 15:04:41,971 (EditorListener.java:236) Viewport changed: 642+26
+DEBUG 2016-05-19 15:04:41,985 (EditorListener.java:236) Viewport changed: 634+27
+DEBUG 2016-05-19 15:04:42,004 (EditorListener.java:236) Viewport changed: 629+26
+DEBUG 2016-05-19 15:04:42,021 (EditorListener.java:236) Viewport changed: 623+27
+DEBUG 2016-05-19 15:04:42,033 (EditorListener.java:236) Viewport changed: 617+27
+DEBUG 2016-05-19 15:04:42,062 (EditorListener.java:236) Viewport changed: 613+26
+DEBUG 2016-05-19 15:04:42,068 (EditorListener.java:236) Viewport changed: 608+27
+DEBUG 2016-05-19 15:04:42,078 (EditorListener.java:236) Viewport changed: 604+27
+DEBUG 2016-05-19 15:04:42,102 (EditorListener.java:236) Viewport changed: 600+27
+DEBUG 2016-05-19 15:04:42,114 (EditorListener.java:236) Viewport changed: 597+26
+DEBUG 2016-05-19 15:04:42,127 (EditorListener.java:236) Viewport changed: 594+26
+DEBUG 2016-05-19 15:04:42,152 (EditorListener.java:236) Viewport changed: 591+26
+DEBUG 2016-05-19 15:04:42,161 (EditorListener.java:236) Viewport changed: 588+27
+DEBUG 2016-05-19 15:04:42,173 (EditorListener.java:236) Viewport changed: 585+27
+DEBUG 2016-05-19 15:04:42,198 (EditorListener.java:236) Viewport changed: 583+26
+DEBUG 2016-05-19 15:04:42,209 (EditorListener.java:236) Viewport changed: 581+26
+DEBUG 2016-05-19 15:04:42,219 (EditorListener.java:236) Viewport changed: 579+26
+DEBUG 2016-05-19 15:04:42,236 (EditorListener.java:236) Viewport changed: 577+26
+DEBUG 2016-05-19 15:04:42,260 (EditorListener.java:236) Viewport changed: 575+27
+DEBUG 2016-05-19 15:04:42,266 (EditorListener.java:236) Viewport changed: 573+27
+DEBUG 2016-05-19 15:04:42,286 (EditorListener.java:236) Viewport changed: 571+27
+DEBUG 2016-05-19 15:04:42,297 (EditorListener.java:236) Viewport changed: 570+26
+DEBUG 2016-05-19 15:04:42,312 (EditorListener.java:236) Viewport changed: 568+27
+DEBUG 2016-05-19 15:04:42,336 (EditorListener.java:236) Viewport changed: 567+27
+DEBUG 2016-05-19 15:04:42,349 (EditorListener.java:236) Viewport changed: 566+26
+DEBUG 2016-05-19 15:04:42,360 (EditorListener.java:236) Viewport changed: 564+27
+DEBUG 2016-05-19 15:04:42,383 (EditorListener.java:236) Viewport changed: 563+27
+DEBUG 2016-05-19 15:04:42,396 (EditorListener.java:236) Viewport changed: 562+27
+DEBUG 2016-05-19 15:04:42,406 (EditorListener.java:236) Viewport changed: 561+27
+DEBUG 2016-05-19 15:04:42,429 (EditorListener.java:236) Viewport changed: 560+27
+DEBUG 2016-05-19 15:04:42,453 (EditorListener.java:236) Viewport changed: 559+27
+DEBUG 2016-05-19 15:04:42,490 (EditorListener.java:236) Viewport changed: 557+27
+DEBUG 2016-05-19 15:04:42,524 (EditorListener.java:236) Viewport changed: 556+27
+DEBUG 2016-05-19 15:04:42,548 (EditorListener.java:236) Viewport changed: 554+27
+DEBUG 2016-05-19 15:04:42,586 (EditorListener.java:236) Viewport changed: 553+27
+DEBUG 2016-05-19 15:04:42,618 (EditorListener.java:236) Viewport changed: 552+27
+DEBUG 2016-05-19 15:04:42,664 (EditorListener.java:236) Viewport changed: 551+27
+DEBUG 2016-05-19 15:04:42,711 (EditorListener.java:236) Viewport changed: 550+27
+DEBUG 2016-05-19 15:04:42,756 (EditorListener.java:236) Viewport changed: 549+27
+DEBUG 2016-05-19 15:04:42,805 (EditorListener.java:236) Viewport changed: 548+27
+DEBUG 2016-05-19 15:04:42,950 (EditorListener.java:236) Viewport changed: 540+27
+DEBUG 2016-05-19 15:04:42,973 (EditorListener.java:236) Viewport changed: 533+27
+DEBUG 2016-05-19 15:04:43,000 (EditorListener.java:236) Viewport changed: 525+27
+DEBUG 2016-05-19 15:04:43,039 (EditorListener.java:236) Viewport changed: 511+27
+DEBUG 2016-05-19 15:04:43,052 (EditorListener.java:236) Viewport changed: 499+27
+DEBUG 2016-05-19 15:04:43,061 (EditorListener.java:236) Viewport changed: 488+27
+DEBUG 2016-05-19 15:04:43,085 (EditorListener.java:236) Viewport changed: 478+26
+DEBUG 2016-05-19 15:04:43,099 (EditorListener.java:236) Viewport changed: 468+27
+DEBUG 2016-05-19 15:04:43,107 (EditorListener.java:236) Viewport changed: 460+27
+DEBUG 2016-05-19 15:04:43,131 (EditorListener.java:236) Viewport changed: 453+26
+DEBUG 2016-05-19 15:04:43,143 (EditorListener.java:236) Viewport changed: 446+27
+DEBUG 2016-05-19 15:04:43,156 (EditorListener.java:236) Viewport changed: 440+27
+DEBUG 2016-05-19 15:04:43,180 (EditorListener.java:236) Viewport changed: 435+26
+DEBUG 2016-05-19 15:04:43,192 (EditorListener.java:236) Viewport changed: 429+27
+DEBUG 2016-05-19 15:04:43,201 (EditorListener.java:236) Viewport changed: 425+27
+DEBUG 2016-05-19 15:04:43,219 (EditorListener.java:236) Viewport changed: 420+27
+DEBUG 2016-05-19 15:04:43,237 (EditorListener.java:236) Viewport changed: 416+27
+DEBUG 2016-05-19 15:04:43,248 (EditorListener.java:236) Viewport changed: 413+26
+DEBUG 2016-05-19 15:04:43,272 (EditorListener.java:236) Viewport changed: 409+27
+DEBUG 2016-05-19 15:04:43,284 (EditorListener.java:236) Viewport changed: 406+27
+DEBUG 2016-05-19 15:04:43,296 (EditorListener.java:236) Viewport changed: 403+27
+DEBUG 2016-05-19 15:04:43,320 (EditorListener.java:236) Viewport changed: 400+27
+DEBUG 2016-05-19 15:04:43,327 (EditorListener.java:236) Viewport changed: 398+27
+DEBUG 2016-05-19 15:04:43,343 (EditorListener.java:236) Viewport changed: 396+26
+DEBUG 2016-05-19 15:04:43,367 (EditorListener.java:236) Viewport changed: 393+27
+DEBUG 2016-05-19 15:04:43,379 (EditorListener.java:236) Viewport changed: 391+27
+DEBUG 2016-05-19 15:04:43,389 (EditorListener.java:236) Viewport changed: 389+27
+DEBUG 2016-05-19 15:04:43,413 (EditorListener.java:236) Viewport changed: 388+26
+DEBUG 2016-05-19 15:04:43,424 (EditorListener.java:236) Viewport changed: 386+27
+DEBUG 2016-05-19 15:04:43,437 (EditorListener.java:236) Viewport changed: 384+27
+DEBUG 2016-05-19 15:04:43,460 (EditorListener.java:236) Viewport changed: 383+26
+DEBUG 2016-05-19 15:04:43,473 (EditorListener.java:236) Viewport changed: 381+27
+DEBUG 2016-05-19 15:04:43,482 (EditorListener.java:236) Viewport changed: 380+27
+DEBUG 2016-05-19 15:04:43,506 (EditorListener.java:236) Viewport changed: 379+26
+DEBUG 2016-05-19 15:04:43,518 (EditorListener.java:236) Viewport changed: 377+27
+DEBUG 2016-05-19 15:04:43,530 (EditorListener.java:236) Viewport changed: 376+27
+DEBUG 2016-05-19 15:04:43,550 (EditorListener.java:236) Viewport changed: 375+27
+DEBUG 2016-05-19 15:04:43,563 (EditorListener.java:236) Viewport changed: 374+27
+DEBUG 2016-05-19 15:04:43,576 (EditorListener.java:236) Viewport changed: 373+27
+DEBUG 2016-05-19 15:04:43,782 (EditorListener.java:236) Viewport changed: 372+27
+DEBUG 2016-05-19 15:04:43,803 (EditorListener.java:236) Viewport changed: 369+27
+DEBUG 2016-05-19 15:04:43,831 (EditorListener.java:236) Viewport changed: 366+26
+DEBUG 2016-05-19 15:04:43,856 (EditorListener.java:236) Viewport changed: 363+26
+DEBUG 2016-05-19 15:04:44,279 (EditorListener.java:236) Viewport changed: 359+27
+DEBUG 2016-05-19 15:04:44,308 (EditorListener.java:236) Viewport changed: 352+27
+DEBUG 2016-05-19 15:04:44,340 (EditorListener.java:236) Viewport changed: 346+27
+DEBUG 2016-05-19 15:04:44,375 (EditorListener.java:236) Viewport changed: 342+27
+DEBUG 2016-05-19 15:04:44,396 (EditorListener.java:236) Viewport changed: 338+27
+DEBUG 2016-05-19 15:04:44,422 (EditorListener.java:236) Viewport changed: 336+26
+DEBUG 2016-05-19 15:04:44,429 (EditorListener.java:236) Viewport changed: 333+27
+DEBUG 2016-05-19 15:04:44,465 (EditorListener.java:236) Viewport changed: 327+26
+DEBUG 2016-05-19 15:04:44,489 (EditorListener.java:236) Viewport changed: 321+27
+DEBUG 2016-05-19 15:04:44,511 (EditorListener.java:236) Viewport changed: 316+27
+DEBUG 2016-05-19 15:04:44,530 (EditorListener.java:236) Viewport changed: 311+27
+DEBUG 2016-05-19 15:04:44,547 (EditorListener.java:236) Viewport changed: 307+27
+DEBUG 2016-05-19 15:04:44,571 (EditorListener.java:236) Viewport changed: 303+27
+DEBUG 2016-05-19 15:04:44,587 (EditorListener.java:236) Viewport changed: 299+27
+DEBUG 2016-05-19 15:04:44,602 (EditorListener.java:236) Viewport changed: 296+27
+DEBUG 2016-05-19 15:04:44,615 (EditorListener.java:236) Viewport changed: 293+27
+DEBUG 2016-05-19 15:04:44,629 (EditorListener.java:236) Viewport changed: 290+27
+DEBUG 2016-05-19 15:04:44,642 (EditorListener.java:236) Viewport changed: 287+27
+DEBUG 2016-05-19 15:04:44,654 (EditorListener.java:236) Viewport changed: 285+26
+DEBUG 2016-05-19 15:04:44,669 (EditorListener.java:236) Viewport changed: 282+27
+DEBUG 2016-05-19 15:04:44,692 (EditorListener.java:236) Viewport changed: 280+27
+DEBUG 2016-05-19 15:04:44,703 (EditorListener.java:236) Viewport changed: 278+27
+DEBUG 2016-05-19 15:04:44,881 (EditorListener.java:236) Viewport changed: 279+27
+DEBUG 2016-05-19 15:04:45,198 (EditorListener.java:236) Viewport changed: 281+27
+DEBUG 2016-05-19 15:04:45,213 (EditorListener.java:236) Viewport changed: 286+27
+DEBUG 2016-05-19 15:04:45,239 (EditorListener.java:236) Viewport changed: 292+27
+DEBUG 2016-05-19 15:04:45,265 (EditorListener.java:236) Viewport changed: 309+27
+DEBUG 2016-05-19 15:04:45,295 (EditorListener.java:236) Viewport changed: 314+27
+DEBUG 2016-05-19 15:04:45,320 (EditorListener.java:236) Viewport changed: 317+27
+DEBUG 2016-05-19 15:04:45,355 (EditorListener.java:236) Viewport changed: 326+27
+DEBUG 2016-05-19 15:04:45,379 (EditorListener.java:236) Viewport changed: 334+27
+DEBUG 2016-05-19 15:04:45,391 (EditorListener.java:236) Viewport changed: 341+27
+DEBUG 2016-05-19 15:04:45,403 (EditorListener.java:236) Viewport changed: 348+26
+DEBUG 2016-05-19 15:04:45,426 (EditorListener.java:236) Viewport changed: 354+27
+DEBUG 2016-05-19 15:04:45,438 (EditorListener.java:236) Viewport changed: 359+27
+DEBUG 2016-05-19 15:04:45,447 (EditorListener.java:236) Viewport changed: 364+27
+DEBUG 2016-05-19 15:04:45,471 (EditorListener.java:236) Viewport changed: 369+27
+DEBUG 2016-05-19 15:04:45,483 (EditorListener.java:236) Viewport changed: 373+27
+DEBUG 2016-05-19 15:04:45,496 (EditorListener.java:236) Viewport changed: 377+27
+DEBUG 2016-05-19 15:04:45,513 (EditorListener.java:236) Viewport changed: 381+26
+DEBUG 2016-05-19 15:04:45,614 (EditorListener.java:236) Viewport changed: 382+27
+DEBUG 2016-05-19 15:04:45,631 (EditorListener.java:236) Viewport changed: 387+26
+DEBUG 2016-05-19 15:04:45,658 (EditorListener.java:236) Viewport changed: 388+27
+DEBUG 2016-05-19 15:04:45,817 (EditorListener.java:236) Viewport changed: 385+27
+DEBUG 2016-05-19 15:04:45,842 (EditorListener.java:236) Viewport changed: 383+26
+DEBUG 2016-05-19 15:04:45,869 (EditorListener.java:236) Viewport changed: 381+26
+DEBUG 2016-05-19 15:04:45,898 (EditorListener.java:236) Viewport changed: 378+27
+DEBUG 2016-05-19 15:04:45,925 (EditorListener.java:236) Viewport changed: 375+27
+DEBUG 2016-05-19 15:04:46,194 (EditorListener.java:236) Viewport changed: 374+26
+DEBUG 2016-05-19 15:04:46,208 (EditorListener.java:236) Viewport changed: 372+27
+DEBUG 2016-05-19 15:04:46,236 (EditorListener.java:236) Viewport changed: 371+27
+DEBUG 2016-05-19 15:04:46,262 (EditorListener.java:236) Viewport changed: 370+26
+DEBUG 2016-05-19 15:04:46,288 (EditorListener.java:236) Viewport changed: 368+27
+DEBUG 2016-05-19 15:04:46,314 (EditorListener.java:236) Viewport changed: 367+27
+DEBUG 2016-05-19 15:04:46,340 (EditorListener.java:236) Viewport changed: 366+27
+DEBUG 2016-05-19 15:04:46,367 (EditorListener.java:236) Viewport changed: 365+27
+DEBUG 2016-05-19 15:04:46,424 (EditorListener.java:236) Viewport changed: 364+27
+DEBUG 2016-05-19 15:04:46,696 (EditorListener.java:236) Viewport changed: 359+27
+DEBUG 2016-05-19 15:04:46,720 (EditorListener.java:236) Viewport changed: 356+27
+DEBUG 2016-05-19 15:04:46,745 (EditorListener.java:236) Viewport changed: 355+26
+DEBUG 2016-05-19 15:04:46,772 (EditorListener.java:236) Viewport changed: 354+26
+DEBUG 2016-05-19 15:04:47,112 (EditorListener.java:236) Viewport changed: 352+27
+DEBUG 2016-05-19 15:04:47,462 (EditorListener.java:236) Viewport changed: 349+27
+DEBUG 2016-05-19 15:04:47,488 (EditorListener.java:236) Viewport changed: 348+27
+DEBUG 2016-05-19 15:04:48,660 (EditorListener.java:236) Viewport changed: 363+27
+DEBUG 2016-05-19 15:04:48,673 (EditorListener.java:236) Viewport changed: 383+27
+DEBUG 2016-05-19 15:04:48,699 (EditorListener.java:236) Viewport changed: 416+27
+DEBUG 2016-05-19 15:04:48,748 (EditorListener.java:236) Viewport changed: 475+27
+DEBUG 2016-05-19 15:04:48,762 (EditorListener.java:236) Viewport changed: 528+27
+DEBUG 2016-05-19 15:04:48,775 (EditorListener.java:236) Viewport changed: 575+27
+DEBUG 2016-05-19 15:04:48,789 (EditorListener.java:236) Viewport changed: 615+26
+DEBUG 2016-05-19 15:04:48,802 (EditorListener.java:236) Viewport changed: 650+27
+DEBUG 2016-05-19 15:04:48,817 (EditorListener.java:236) Viewport changed: 681+27
+DEBUG 2016-05-19 15:04:48,841 (EditorListener.java:236) Viewport changed: 708+27
+DEBUG 2016-05-19 15:04:48,853 (EditorListener.java:236) Viewport changed: 732+27
+DEBUG 2016-05-19 15:04:48,865 (EditorListener.java:236) Viewport changed: 752+27
+DEBUG 2016-05-19 15:04:48,890 (EditorListener.java:236) Viewport changed: 772+26
+DEBUG 2016-05-19 15:04:48,899 (EditorListener.java:236) Viewport changed: 778+27
+DEBUG 2016-05-19 15:04:49,315 (EditorListener.java:236) Viewport changed: 776+27
+DEBUG 2016-05-19 15:04:49,368 (EditorListener.java:236) Viewport changed: 775+27
+DEBUG 2016-05-19 15:04:49,395 (EditorListener.java:236) Viewport changed: 774+27
+DEBUG 2016-05-19 15:04:49,425 (EditorListener.java:236) Viewport changed: 773+27
+DEBUG 2016-05-19 15:04:49,639 (EditorListener.java:236) Viewport changed: 772+27
+DEBUG 2016-05-19 15:04:49,667 (EditorListener.java:236) Viewport changed: 771+27
+DEBUG 2016-05-19 15:04:49,694 (EditorListener.java:236) Viewport changed: 770+27
+DEBUG 2016-05-19 15:04:49,746 (EditorListener.java:236) Viewport changed: 768+27
+DEBUG 2016-05-19 15:04:49,853 (EditorListener.java:236) Viewport changed: 767+27
+DEBUG 2016-05-19 15:04:50,174 (EditorListener.java:236) Viewport changed: 764+27
+DEBUG 2016-05-19 15:04:50,199 (EditorListener.java:236) Viewport changed: 763+27
+DEBUG 2016-05-19 15:04:50,226 (EditorListener.java:236) Viewport changed: 761+27
+DEBUG 2016-05-19 15:04:50,253 (EditorListener.java:236) Viewport changed: 760+27
+DEBUG 2016-05-19 15:04:50,309 (EditorListener.java:236) Viewport changed: 759+26
+DEBUG 2016-05-19 15:04:50,390 (EditorListener.java:236) Viewport changed: 757+27
+DEBUG 2016-05-19 15:04:50,676 (EditorListener.java:236) Viewport changed: 756+26
+DEBUG 2016-05-19 15:04:50,699 (EditorListener.java:236) Viewport changed: 754+27
+DEBUG 2016-05-19 15:04:50,751 (EditorListener.java:236) Viewport changed: 753+26
+DEBUG 2016-05-19 15:05:22,716 (DataTransferManager.java:330) closed connection [pool id=saros-main-session:out:jackcbreton@saros-con.imp.fu-berlin.de/Saros]: [mode=IBB, id=saros-main-session] jackcbreton@saros-con.imp.fu-berlin.de/Saros
+ERROR 2016-05-19 15:05:22,716 (DataTransferManager.java:270) failed to send TransferDescription [elementName=ados, namespace=de.fu_berlin.inf.dpp, recipient=jackcbreton@saros-con.imp.fu-berlin.de/Saros, sender=toper@saros-con.imp.fu-berlin.de/Saros, compress=true], connection=[mode=IBB, id=saros-main-session] jackcbreton@saros-con.imp.fu-berlin.de/Saros:Error while closing stream: No response from server.
+java.io.IOException: Error while closing stream: No response from server.
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.closeByLocal(InBandBytestreamSession.java:213)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.close(InBandBytestreamSession.java:154)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IQIBBOutputStream.writeToXML(InBandBytestreamSession.java:768)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flushBuffer(InBandBytestreamSession.java:707)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flush(InBandBytestreamSession.java:691)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:141)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.sendTransferDescription(BinaryChannelConnection.java:544)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:322)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:501)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:482)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:152)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 2016-05-19 15:05:22,723 (ActivitySequencer.java:504) failed to sent activities: [EditorActivity(type: ACTIVATED, path: SPath [path=src/net/toper/sound/engine1.java, project=Phantom])]
+java.io.IOException: Error while closing stream: No response from server.
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.closeByLocal(InBandBytestreamSession.java:213)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.close(InBandBytestreamSession.java:154)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IQIBBOutputStream.writeToXML(InBandBytestreamSession.java:768)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flushBuffer(InBandBytestreamSession.java:707)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flush(InBandBytestreamSession.java:691)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:141)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.sendTransferDescription(BinaryChannelConnection.java:544)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:322)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:501)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:482)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:152)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 2016-05-19 15:05:22,728 (SarosSessionManager.java:330) terminating all running negotiation processes
+DEBUG 2016-05-19 15:05:22,730 (SarosSessionManager.java:337) Leave message sent.
+DEBUG 2016-05-19 15:05:22,730 (ActivityHandler.java:109) activity dispatcher stopped
+INFO  2016-05-19 15:05:22,731 (FeedbackManager.java:104) Session lasted 8 min 51 s
+INFO  2016-05-19 15:05:22,731 (FeedbackManager.java:119) Sessions until next survey: 1
+DEBUG 2016-05-19 15:05:22,732 (FollowModeCollector.java:177) Processing follow mode changes took 0.0 s
+INFO  2016-05-19 15:05:22,734 (ParticipantCollector.java:145) Session ended: Current number of participants: 2
+DEBUG 2016-05-19 15:05:22,735 (StatisticManager.java:329) Session statistic:
+  auto.followmode.enabled=false
+  data_transfer.IBB.average_throughput_kbs=0.3
+  data_transfer.IBB.number_of_events=187
+  data_transfer.IBB.total_size_kb=65
+  data_transfer.IBB.total_time_ms=229512
+  feedback.disabled=true
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.8.0_60
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Windows 7
+  platform.version=3.11.1.v20150903-1804
+  random.user.id=2016-05-10_15-02-26_1284877035
+  role.1.duration=8.86
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=8.86
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=14.10.31
+  session.count=9
+  session.id=707483113
+  session.local.start=2016-05-19T19:05:22Z
+  session.shared.project.complete.count=1
+  session.shared.project.partial.count=0
+  session.shared.project.partial.files.count=0
+  session.time.users.2.percent=100
+  session.time.users.2=8.86
+  session.time=8.86
+  session.users.total=2
+  textedits.chars=32
+  textedits.count=29
+  textedits.nonparallel.chars=32
+  textedits.nonparallel.percent=100
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  textedits.remote.user.1.chars=178
+  textedits.remote.user.1.pastes.chars=34
+  textedits.remote.user.1.pastes=1
+  user.is.host=false
+INFO  2016-05-19 15:05:22,735 (StatisticManager.java:243) User does not allow to submit session statistics
+DEBUG 2016-05-19 15:05:22,844 (EditorManager.java:1697) unlocking all editors
+WARN  2016-05-19 15:05:22,846 (SarosSession.java:655) failed to notify user jackcbreton@saros-con.imp.fu-berlin.de/Saros about local session stop
+java.io.IOException: not connected to jackcbreton@saros-con.imp.fu-berlin.de/Saros [connection identifier=saros-main-session]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:206)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.SarosSession.stop(SarosSession.java:651)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.stopSarosSession(SarosSessionManager.java:340)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.SessionTimeoutHandler$3.run(SessionTimeoutHandler.java:115)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Thread.java:745)
+DEBUG 2016-05-19 15:05:22,869 (XStreamExtensionProvider.java:169) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2016-05-19 15:05:22,869 (XStreamExtensionProvider.java:216) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+WARN  2016-05-19 15:05:22,883 (EditorManager.java:490) .disconnect(): file L/Phantom/src/net/toper/main/Main.java already disconnected
+DEBUG 2016-05-19 15:05:22,974 (MultiUserChatService.java:135) leaving multi user chat de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat@155d749c
+DEBUG 2016-05-19 15:05:22,975 (DocumentRecord.java:93) Added Node: attr(146368472297557807) name=svg
+DEBUG 2016-05-19 15:05:22,975 (SharedProjectDecorator.java:93) clearing project decoration for all shared projects
+INFO  2016-05-19 15:05:22,976 (SarosSessionManager.java:351) session stopped
+DEBUG 2016-05-19 15:17:03,945 (DiscoveryManager.java:98) clearing cache entry of contact jackcbreton@saros-con.imp.fu-berlin.de/Saros: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="Smack" type="pc"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/ibb"/><feature var="http://jabber.org/protocol/si"/><feature var="http://jabber.org/protocol/xhtml-im"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/si/profile/file-transfer"/><feature var="urn:xmpp:ping"/><feature var="jabber:iq:last"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/muc"/><feature var="de.fu_berlin.inf.dpp"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+ERROR 2016-05-19 21:18:19,047 (XMPPConnectionService.java:101) XMPP connection error: 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.read1(BufferedReader.java:212)
+	at java.io.BufferedReader.read(BufferedReader.java:286)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:312)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+ERROR 2016-05-19 21:18:19,049 (XMPPConnectionService.java:400)  new connection state == ERROR
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.read1(BufferedReader.java:212)
+	at java.io.BufferedReader.read(BufferedReader.java:286)
+	at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:2992)
+	at org.xmlpull.mxp1.MXParser.more(MXParser.java:3046)
+	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:312)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+ERROR 2016-05-19 21:18:19,052 (BinaryChannelConnection.java:176) failed to gracefully close connection [mode=IBB, id=default] jackcbreton@saros-con.imp.fu-berlin.de/Saros
+java.lang.IllegalStateException: Not connected to server.
+	at org.jivesoftware.smack.XMPPConnection.sendPacket(XMPPConnection.java:483)
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:42)
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:62)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.closeByLocal(InBandBytestreamSession.java:210)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.close(InBandBytestreamSession.java:154)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPByteStreamAdapter.close(XMPPByteStreamAdapter.java:32)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.close(BinaryChannelConnection.java:174)
+	at de.fu_berlin.inf.dpp.net.internal.ConnectionPool.close(ConnectionPool.java:50)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.disposeConnection(DataTransferManager.java:510)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectionStateChanged(DataTransferManager.java:520)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.setConnectionState(XMPPConnectionService.java:405)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.access$1(XMPPConnectionService.java:384)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService$1.connectionClosedOnError(XMPPConnectionService.java:102)
+	at org.jivesoftware.smack.XMPPConnection.notifyConnectionError(XMPPConnection.java:1057)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:321)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+DEBUG 2016-05-19 21:18:19,506 (BinaryChannelConnection.java:112) [mode=IBB, id=default] jackcbreton@saros-con.imp.fu-berlin.de/Saros connection closed remotely:null
+DEBUG 2016-05-19 21:18:19,506 (ConnectionPool.java:52) closed connection [id=default:out:jackcbreton@saros-con.imp.fu-berlin.de/Saros]: [mode=IBB, id=default] jackcbreton@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-05-19 21:18:19,520 (XMPPConnectionService.java:398)  new connection state == NOT_CONNECTED
+DEBUG 2016-05-20 08:19:42,003 (UPnPServiceImpl.java:295) deleting existing port mappings

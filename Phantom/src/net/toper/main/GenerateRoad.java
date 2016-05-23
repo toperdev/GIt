@@ -1,0 +1,51 @@
+package net.toper.main;
+
+import org.newdawn.slick.Color;
+import org.newdawn.slick.Graphics;
+import org.newdawn.slick.Image;
+import org.newdawn.slick.SlickException;
+
+import net.toper.util.SimplexNoise;
+
+public class GenerateRoad {
+
+	public SimplexNoise noise = new SimplexNoise();
+
+	public Image generate(int width, int height, int xOff) {
+		Image img = null;
+		try {
+			img = new Image(width,height);
+		} catch (SlickException e) {
+			e.printStackTrace();
+		}
+
+		for (int x = 0; x < width; x++) {
+			for (int y = 0; y < height; y++) {
+				Graphics g = null;
+				try {
+					g = img.getGraphics();
+				} catch (SlickException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				g.setColor(new Color(0xff00ff00));
+				g.fillRect(x,y,1,1);
+				g.flush();
+			}
+		}
+
+		return img;
+
+	}
+
+	public int[] generateSimplexNoise(int width, int height) {
+		int[] simplexnoise = new int[width];
+
+		for (int x = 0; x < width; x++) {
+			int point = (width / 2) + (int) ((noise.noise(x,1) * height));
+			simplexnoise[x] = point;
+		}
+		return simplexnoise;
+	}
+
+}

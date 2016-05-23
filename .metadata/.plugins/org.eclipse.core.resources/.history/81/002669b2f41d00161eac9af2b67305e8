@@ -1,0 +1,53 @@
+package net.toper.main;
+
+import org.newdawn.slick.AppGameContainer;
+import net.toper.sound.*;
+import org.newdawn.slick.BasicGame;
+import org.newdawn.slick.GameContainer;
+import org.newdawn.slick.Graphics;
+import org.newdawn.slick.SlickException;
+
+public class Main extends BasicGame {
+
+	Render r = new Render();
+	Player p;
+	Background road;
+	static engine1 e = new engine1(); 
+
+	public Main() {
+		super("");
+	}
+
+	public static void main(String[] arguments) {
+		e.play();
+		try {
+			AppGameContainer app = new AppGameContainer(new Main());
+			app.setDisplayMode(1000, (1000 / 16 * 9), false);
+			app.setTargetFrameRate(120);
+			app.start();
+		} catch (SlickException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void init(GameContainer container) throws SlickException {
+		road = new Background();
+		p = new Player();
+		e = new engine1(); 
+		e.loop(); 
+
+	}
+
+	public void update(GameContainer gc, int delta) throws SlickException {
+		p.update(gc, delta/1000f);
+		road.update(p, gc);
+		e.loop();
+		System.out.println(e.isLooping());
+	}
+
+	public void render(GameContainer gc, Graphics g) throws SlickException {
+		road.render(r);
+		p.render(r, gc);
+		g.setAntiAlias(true);
+	}
+}
